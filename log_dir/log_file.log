@@ -1,0 +1,633 @@
+2025-09-25 20:12:15,062 ERROR load_keys(26) Failed to load Keys. Missing or invalid environment variables.
+2025-09-25 20:12:15,062 ERROR load_keys(28) Field: openai_secret_job, Error: Field required
+2025-09-25 20:12:15,063 ERROR load_keys(28) Field: open_api_key, Error: Extra inputs are not permitted
+2025-09-25 20:14:07,972 ERROR load_keys(26) Failed to load Keys. Missing or invalid environment variables.
+2025-09-25 20:14:07,972 ERROR load_keys(28) Field: openai_key, Error: Field required
+2025-09-25 20:14:07,973 ERROR load_keys(28) Field: open_api_key, Error: Extra inputs are not permitted
+2025-09-25 20:15:41,599 ERROR load_keys(25) Failed to load Keys. Missing or invalid environment variables.
+2025-09-25 20:15:41,600 ERROR load_keys(27) Field: openai_api_key, Error: Field required
+2025-09-25 20:15:41,601 ERROR load_keys(27) Field: open_api_key, Error: Extra inputs are not permitted
+2025-09-25 20:17:13,537 INFO load_keys(22) Settings loaded successfully.
+2025-09-25 20:19:17,188 INFO load_keys(22) keys loaded successfully.
+2025-09-25 20:19:33,068 ERROR load_keys(25) Failed to load Keys. Missing or invalid environment variables.2 validation errors for keys
+openai_api_key
+  Field required [type=missing, input_value={'weather_api_key': '5890...8740debe3c64756cea7f93'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+openaiapi_key
+  Extra inputs are not permitted [type=extra_forbidden, input_value='fbd43113408740debe3c64756cea7f93', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+2025-09-25 21:02:10,287 INFO load_keys(24) keys loaded successfully.
+2025-09-25 21:02:59,062 INFO load_keys(24) keys loaded successfully.
+2025-09-25 21:04:47,277 INFO load_keys(24) keys loaded successfully.
+2025-09-25 21:04:50,621 INFO __init__(31) [INIT] Chatbot initialized with max_history=10, keep_n=2
+2025-09-25 21:04:55,849 INFO __init__(39) [INIT] LLM initialized with GPT-4o
+2025-09-25 21:06:27,116 INFO load_keys(24) keys loaded successfully.
+2025-09-25 21:06:30,518 INFO __init__(31) [INIT] Chatbot initialized with max_history=10, keep_n=2
+2025-09-25 21:06:33,402 INFO __init__(39) [INIT] LLM initialized with GPT-4o
+2025-09-25 21:06:58,680 INFO load_keys(24) keys loaded successfully.
+2025-09-25 21:07:02,067 INFO __init__(31) [INIT] Chatbot initialized with max_history=10, keep_n=2
+2025-09-25 21:07:04,964 INFO __init__(39) [INIT] LLM initialized with GPT-4o
+2025-09-25 21:07:04,978 INFO __init__(48) [INIT] System prompt loaded successfully
+2025-09-25 21:07:04,979 INFO create_graph(69) [GRAPH] Creating conversation graph...
+2025-09-25 21:07:04,981 INFO create_graph(79) [GRAPH] Graph compiled with memory saver
+2025-09-25 21:07:04,989 INFO <module>(10) Chatbot initialized and ready!
+2025-09-25 21:07:04,990 INFO <module>(14) Using config: {'configurable': {'thread_id': '1'}}
+2025-09-25 21:07:09,096 INFO <module>(25) User: hi
+2025-09-25 21:07:09,101 INFO ai_chat(51) [AI_CHAT] Received 1 messages
+2025-09-25 21:07:11,244 INFO ai_chat(54) [AI_CHAT] LLM responded with: Hello! How can I assist you today?...
+2025-09-25 21:07:11,245 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 2
+2025-09-25 21:07:11,247 INFO <module>(31) Bot: Hello! How can I assist you today?
+2025-09-25 21:07:11,248 INFO <module>(36) State updated, total messages now: 2
+2025-09-25 21:07:30,627 INFO <module>(25) User: show me weather of india
+2025-09-25 21:07:30,630 INFO ai_chat(51) [AI_CHAT] Received 3 messages
+2025-09-25 21:07:32,153 INFO ai_chat(54) [AI_CHAT] LLM responded with: ...
+2025-09-25 21:07:32,153 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 4
+2025-09-25 21:07:34,585 INFO ai_chat(51) [AI_CHAT] Received 5 messages
+2025-09-25 21:07:39,872 INFO ai_chat(54) [AI_CHAT] LLM responded with: The current weather in New Delhi, India is as follows:
+- **Temperature:** 31.1ï¿½C...
+2025-09-25 21:07:39,872 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 6
+2025-09-25 21:07:39,874 INFO <module>(31) Bot: The current weather in New Delhi, India is as follows:
+- **Temperature:** 31.1ï¿½C
+- **Condition:** Mist
+- **Last Updated:** 21:45 on September 25, 2025
+
+If you have any more questions or need further assistance, feel free to ask!
+2025-09-25 21:07:39,875 INFO <module>(36) State updated, total messages now: 6
+2025-09-25 21:07:46,657 INFO <module>(19) User ended the session.
+2025-09-25 21:24:05,180 INFO load_keys(24) keys loaded successfully.
+2025-09-25 21:24:08,670 INFO __init__(31) [INIT] Chatbot initialized with max_history=10, keep_n=2
+2025-09-25 21:24:11,545 INFO __init__(39) [INIT] LLM initialized with GPT-4o
+2025-09-25 21:24:11,559 INFO __init__(48) [INIT] System prompt loaded successfully
+2025-09-25 21:24:11,559 INFO create_graph(69) [GRAPH] Creating conversation graph...
+2025-09-25 21:24:11,561 INFO create_graph(79) [GRAPH] Graph compiled with memory saver
+2025-09-25 21:24:11,570 INFO <module>(10) Chatbot initialized and ready!
+2025-09-25 21:24:11,570 INFO <module>(14) Using config: {'configurable': {'thread_id': '1'}}
+2025-09-25 21:24:17,660 INFO ai_chat(51) [AI_CHAT] Received 1 messages
+2025-09-25 21:24:21,106 INFO ai_chat(54) [AI_CHAT] LLM responded with: Hello! How can I assist you today? Whether you need the latest news, weather upd...
+2025-09-25 21:24:21,107 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 2
+2025-09-25 21:24:21,110 INFO <module>(31) ====================================================================================================
+2025-09-25 21:24:21,110 INFO <module>(32) Agent track loop: content='hi' additional_kwargs={} response_metadata={} id='4ea5e401-ab33-4abb-acf5-b9d7fb71ec61'
+2025-09-25 21:24:21,111 INFO <module>(31) ====================================================================================================
+2025-09-25 21:24:21,111 INFO <module>(32) Agent track loop: content='Hello! How can I assist you today? Whether you need the latest news, weather updates, or have any other questions, feel free to ask!' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 32, 'prompt_tokens': 1312, 'total_tokens': 1344, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 1152}}, 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_ee1d74bde0', 'id': 'chatcmpl-CJj3TqgSFT8z8VxdMyi7z6U5gsriH', 'service_tier': None, 'finish_reason': 'stop', 'logprobs': None} id='run--c1c09b95-5ee8-404c-aa0c-a0b1c82f0868-0' usage_metadata={'input_tokens': 1312, 'output_tokens': 32, 'total_tokens': 1344, 'input_token_details': {'audio': 0, 'cache_read': 1152}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2025-09-25 21:24:21,112 INFO <module>(37) State updated, total messages now: 2
+2025-09-25 21:25:07,579 INFO ai_chat(51) [AI_CHAT] Received 3 messages
+2025-09-25 21:25:08,938 INFO ai_chat(54) [AI_CHAT] LLM responded with: ...
+2025-09-25 21:25:08,939 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 4
+2025-09-25 21:25:10,881 INFO ai_chat(51) [AI_CHAT] Received 5 messages
+2025-09-25 21:25:11,742 INFO ai_chat(54) [AI_CHAT] LLM responded with: The current weather in New Delhi, India, is characterized by mist with a tempera...
+2025-09-25 21:25:11,742 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 6
+2025-09-25 21:25:11,745 INFO <module>(31) ====================================================================================================
+2025-09-25 21:25:11,746 INFO <module>(32) Agent track loop: content='hi' additional_kwargs={} response_metadata={} id='4ea5e401-ab33-4abb-acf5-b9d7fb71ec61'
+2025-09-25 21:25:11,746 INFO <module>(31) ====================================================================================================
+2025-09-25 21:25:11,747 INFO <module>(32) Agent track loop: content='Hello! How can I assist you today? Whether you need the latest news, weather updates, or have any other questions, feel free to ask!' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 32, 'prompt_tokens': 1312, 'total_tokens': 1344, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 1152}}, 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_ee1d74bde0', 'id': 'chatcmpl-CJj3TqgSFT8z8VxdMyi7z6U5gsriH', 'service_tier': None, 'finish_reason': 'stop', 'logprobs': None} id='run--c1c09b95-5ee8-404c-aa0c-a0b1c82f0868-0' usage_metadata={'input_tokens': 1312, 'output_tokens': 32, 'total_tokens': 1344, 'input_token_details': {'audio': 0, 'cache_read': 1152}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2025-09-25 21:25:11,747 INFO <module>(31) ====================================================================================================
+2025-09-25 21:25:11,747 INFO <module>(32) Agent track loop: content='tell me india weather' additional_kwargs={} response_metadata={} id='5c5c5ccf-9a1c-4f21-8a1b-ad530d81d20a'
+2025-09-25 21:25:11,748 INFO <module>(31) ====================================================================================================
+2025-09-25 21:25:11,748 INFO <module>(32) Agent track loop: content='' additional_kwargs={'tool_calls': [{'id': 'call_R7m0dLXgx0Rtct32SfNescCY', 'function': {'arguments': '{"location":"India"}', 'name': 'get_weather'}, 'type': 'function'}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 15, 'prompt_tokens': 1354, 'total_tokens': 1369, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 1152}}, 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_ee1d74bde0', 'id': 'chatcmpl-CJj4F0I471mvI8xBzrAOoSt5fu9Ui', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--050b6b56-50bb-41a5-968d-9fc1b34c5b28-0' tool_calls=[{'name': 'get_weather', 'args': {'location': 'India'}, 'id': 'call_R7m0dLXgx0Rtct32SfNescCY', 'type': 'tool_call'}] usage_metadata={'input_tokens': 1354, 'output_tokens': 15, 'total_tokens': 1369, 'input_token_details': {'audio': 0, 'cache_read': 1152}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2025-09-25 21:25:11,749 INFO <module>(31) ====================================================================================================
+2025-09-25 21:25:11,749 INFO <module>(32) Agent track loop: content='{"message": "Weather fetched successfully for India ", "data": {"city": "New Delhi", "country": "India", "temperature": 31.0, "condition": "Mist", "last_updated": "2025-09-25 21:45"}}' name='get_weather' id='7b11f841-e85f-4a48-9c80-1bcfa9d3262f' tool_call_id='call_R7m0dLXgx0Rtct32SfNescCY'
+2025-09-25 21:25:11,749 INFO <module>(31) ====================================================================================================
+2025-09-25 21:25:11,750 INFO <module>(32) Agent track loop: content='The current weather in New Delhi, India, is characterized by mist with a temperature of 31ï¿½C. This information was last updated on September 25th at 9:45 PM. If you have more questions or need further details, feel free to ask!' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 55, 'prompt_tokens': 1432, 'total_tokens': 1487, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 1152}}, 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_ee1d74bde0', 'id': 'chatcmpl-CJj4HnDIe7IaFwB1SjkPKZ5LGrm9Q', 'service_tier': None, 'finish_reason': 'stop', 'logprobs': None} id='run--06b14ae4-c800-47a4-a1f1-bec81d4ac34b-0' usage_metadata={'input_tokens': 1432, 'output_tokens': 55, 'total_tokens': 1487, 'input_token_details': {'audio': 0, 'cache_read': 1152}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2025-09-25 21:25:11,751 INFO <module>(37) State updated, total messages now: 6
+2025-09-25 21:30:01,870 INFO ai_chat(51) [AI_CHAT] Received 7 messages
+2025-09-25 21:30:03,229 INFO ai_chat(54) [AI_CHAT] LLM responded with: Hello again! How can I help you today? If there's anything specific you need, ju...
+2025-09-25 21:30:03,230 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 8
+2025-09-25 21:30:03,232 INFO <module>(31) ====================================================================================================
+2025-09-25 21:30:03,233 INFO <module>(32) Agent track loop: content='hi' additional_kwargs={} response_metadata={} id='4ea5e401-ab33-4abb-acf5-b9d7fb71ec61'
+2025-09-25 21:30:03,233 INFO <module>(31) ====================================================================================================
+2025-09-25 21:30:03,233 INFO <module>(32) Agent track loop: content='Hello! How can I assist you today? Whether you need the latest news, weather updates, or have any other questions, feel free to ask!' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 32, 'prompt_tokens': 1312, 'total_tokens': 1344, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 1152}}, 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_ee1d74bde0', 'id': 'chatcmpl-CJj3TqgSFT8z8VxdMyi7z6U5gsriH', 'service_tier': None, 'finish_reason': 'stop', 'logprobs': None} id='run--c1c09b95-5ee8-404c-aa0c-a0b1c82f0868-0' usage_metadata={'input_tokens': 1312, 'output_tokens': 32, 'total_tokens': 1344, 'input_token_details': {'audio': 0, 'cache_read': 1152}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2025-09-25 21:30:03,234 INFO <module>(31) ====================================================================================================
+2025-09-25 21:30:03,234 INFO <module>(32) Agent track loop: content='tell me india weather' additional_kwargs={} response_metadata={} id='5c5c5ccf-9a1c-4f21-8a1b-ad530d81d20a'
+2025-09-25 21:30:03,235 INFO <module>(31) ====================================================================================================
+2025-09-25 21:30:03,235 INFO <module>(32) Agent track loop: content='' additional_kwargs={'tool_calls': [{'id': 'call_R7m0dLXgx0Rtct32SfNescCY', 'function': {'arguments': '{"location":"India"}', 'name': 'get_weather'}, 'type': 'function'}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 15, 'prompt_tokens': 1354, 'total_tokens': 1369, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 1152}}, 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_ee1d74bde0', 'id': 'chatcmpl-CJj4F0I471mvI8xBzrAOoSt5fu9Ui', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--050b6b56-50bb-41a5-968d-9fc1b34c5b28-0' tool_calls=[{'name': 'get_weather', 'args': {'location': 'India'}, 'id': 'call_R7m0dLXgx0Rtct32SfNescCY', 'type': 'tool_call'}] usage_metadata={'input_tokens': 1354, 'output_tokens': 15, 'total_tokens': 1369, 'input_token_details': {'audio': 0, 'cache_read': 1152}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2025-09-25 21:30:03,235 INFO <module>(31) ====================================================================================================
+2025-09-25 21:30:03,236 INFO <module>(32) Agent track loop: content='{"message": "Weather fetched successfully for India ", "data": {"city": "New Delhi", "country": "India", "temperature": 31.0, "condition": "Mist", "last_updated": "2025-09-25 21:45"}}' name='get_weather' id='7b11f841-e85f-4a48-9c80-1bcfa9d3262f' tool_call_id='call_R7m0dLXgx0Rtct32SfNescCY'
+2025-09-25 21:30:03,236 INFO <module>(31) ====================================================================================================
+2025-09-25 21:30:03,237 INFO <module>(32) Agent track loop: content='The current weather in New Delhi, India, is characterized by mist with a temperature of 31ï¿½C. This information was last updated on September 25th at 9:45 PM. If you have more questions or need further details, feel free to ask!' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 55, 'prompt_tokens': 1432, 'total_tokens': 1487, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 1152}}, 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_ee1d74bde0', 'id': 'chatcmpl-CJj4HnDIe7IaFwB1SjkPKZ5LGrm9Q', 'service_tier': None, 'finish_reason': 'stop', 'logprobs': None} id='run--06b14ae4-c800-47a4-a1f1-bec81d4ac34b-0' usage_metadata={'input_tokens': 1432, 'output_tokens': 55, 'total_tokens': 1487, 'input_token_details': {'audio': 0, 'cache_read': 1152}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2025-09-25 21:30:03,237 INFO <module>(31) ====================================================================================================
+2025-09-25 21:30:03,237 INFO <module>(32) Agent track loop: content='hi' additional_kwargs={} response_metadata={} id='3fb322ac-06ff-4bc2-87d7-08242bb26eb2'
+2025-09-25 21:30:03,237 INFO <module>(31) ====================================================================================================
+2025-09-25 21:30:03,238 INFO <module>(32) Agent track loop: content="Hello again! How can I help you today? If there's anything specific you need, just let me know!" additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 24, 'prompt_tokens': 1494, 'total_tokens': 1518, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 1280}}, 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_ee1d74bde0', 'id': 'chatcmpl-CJj8z9In3a9kUXROc6SjpuQwcOYFL', 'service_tier': None, 'finish_reason': 'stop', 'logprobs': None} id='run--9c73cbcd-55d4-4172-91ca-120c4793f9db-0' usage_metadata={'input_tokens': 1494, 'output_tokens': 24, 'total_tokens': 1518, 'input_token_details': {'audio': 0, 'cache_read': 1280}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2025-09-25 21:30:03,238 INFO <module>(37) State updated, total messages now: 8
+2025-09-25 21:30:10,541 INFO <module>(19) User ended the session.
+2025-09-25 21:30:13,617 INFO load_keys(24) keys loaded successfully.
+2025-09-25 21:30:16,917 INFO __init__(31) [INIT] Chatbot initialized with max_history=10, keep_n=2
+2025-09-25 21:30:19,785 INFO __init__(39) [INIT] LLM initialized with GPT-4o
+2025-09-25 21:30:19,799 INFO __init__(48) [INIT] System prompt loaded successfully
+2025-09-25 21:30:19,799 INFO create_graph(69) [GRAPH] Creating conversation graph...
+2025-09-25 21:30:19,801 INFO create_graph(79) [GRAPH] Graph compiled with memory saver
+2025-09-25 21:30:19,810 INFO <module>(35) Chatbot initialized and ready!
+2025-09-25 21:30:19,810 INFO <module>(39) Using config: {'configurable': {'thread_id': '1'}}
+2025-09-25 21:30:37,290 INFO ai_chat(51) [AI_CHAT] Received 1 messages
+2025-09-25 21:30:40,203 INFO ai_chat(54) [AI_CHAT] LLM responded with: Sure, could you please specify the location for which you'd like to know the cur...
+2025-09-25 21:30:40,204 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 2
+2025-09-25 21:30:40,207 INFO log_messages(10) =================================== Human Message ===================================
+2025-09-25 21:30:40,207 INFO log_messages(11) tell me weather
+2025-09-25 21:30:40,207 INFO log_messages(14) =================================== Ai Message ===================================
+2025-09-25 21:30:40,208 INFO log_messages(15) Sure, could you please specify the location for which you'd like to know the current weather?
+2025-09-25 21:30:40,209 INFO <module>(60) State updated, total messages now: 2
+2025-09-25 21:30:57,656 INFO ai_chat(51) [AI_CHAT] Received 3 messages
+2025-09-25 21:30:58,897 INFO ai_chat(54) [AI_CHAT] LLM responded with: ...
+2025-09-25 21:30:58,898 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 4
+2025-09-25 21:30:59,505 INFO ai_chat(51) [AI_CHAT] Received 5 messages
+2025-09-25 21:31:00,570 INFO ai_chat(54) [AI_CHAT] LLM responded with: The current weather in London, United Kingdom is sunny with a temperature of 18....
+2025-09-25 21:31:00,570 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 6
+2025-09-25 21:31:00,573 INFO log_messages(10) =================================== Human Message ===================================
+2025-09-25 21:31:00,573 INFO log_messages(11) tell me weather
+2025-09-25 21:31:00,574 INFO log_messages(14) =================================== Ai Message ===================================
+2025-09-25 21:31:00,574 INFO log_messages(15) Sure, could you please specify the location for which you'd like to know the current weather?
+2025-09-25 21:31:00,574 INFO log_messages(10) =================================== Human Message ===================================
+2025-09-25 21:31:00,574 INFO log_messages(11) tell me London weather
+2025-09-25 21:31:00,575 INFO log_messages(14) =================================== Ai Message ===================================
+2025-09-25 21:31:00,575 INFO log_messages(15) 
+2025-09-25 21:31:00,575 INFO log_messages(20) Tool Calls:
+2025-09-25 21:31:00,575 INFO log_messages(22)   {'id': 'call_Hid71pSHX34IRqPSkcF2zkIx', 'function': {'arguments': '{"location":"London"}', 'name': 'get_weather'}, 'type': 'function'}
+2025-09-25 21:31:00,576 INFO log_messages(25) =================================== Tool Message (Name: get_weather) ===================================
+2025-09-25 21:31:00,576 INFO log_messages(26) {"message": "Weather fetched successfully for London ", "data": {"city": "London", "country": "United Kingdom", "temperature": 18.1, "condition": "Sunny", "last_updated": "2025-09-25 17:30"}}
+2025-09-25 21:31:00,576 INFO log_messages(14) =================================== Ai Message ===================================
+2025-09-25 21:31:00,576 INFO log_messages(15) The current weather in London, United Kingdom is sunny with a temperature of 18.1ï¿½C. The latest update was at 17:30 on September 25, 2025. If you have specific questions about humidity or wind speed, feel free to ask!
+2025-09-25 21:31:00,577 INFO <module>(60) State updated, total messages now: 6
+2025-09-25 21:32:54,169 INFO <module>(44) User ended the session.
+2025-09-25 21:34:38,113 INFO load_keys(24) keys loaded successfully.
+2025-09-25 21:34:41,404 INFO __init__(31) [INIT] Chatbot initialized with max_history=10, keep_n=2
+2025-09-25 21:34:44,244 INFO __init__(39) [INIT] LLM initialized with GPT-4o
+2025-09-25 21:34:44,258 INFO __init__(48) [INIT] System prompt loaded successfully
+2025-09-25 21:34:44,259 INFO create_graph(69) [GRAPH] Creating conversation graph...
+2025-09-25 21:34:44,261 INFO create_graph(79) [GRAPH] Graph compiled with memory saver
+2025-09-25 21:34:44,270 INFO <module>(51) Chatbot initialized and ready!
+2025-09-25 21:34:44,270 INFO <module>(55) Using config: {'configurable': {'thread_id': '1'}}
+2025-09-25 21:34:59,859 INFO ai_chat(51) [AI_CHAT] Received 1 messages
+2025-09-25 21:35:01,659 INFO ai_chat(54) [AI_CHAT] LLM responded with: ...
+2025-09-25 21:35:01,660 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 2
+2025-09-25 21:35:02,627 INFO ai_chat(51) [AI_CHAT] Received 3 messages
+2025-09-25 21:35:05,633 INFO ai_chat(54) [AI_CHAT] LLM responded with: The current weather in London, United Kingdom, is sunny with a temperature of 18...
+2025-09-25 21:35:05,634 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 4
+2025-09-25 21:35:05,637 ERROR <module>(79) Error during chatbot invoke: log_messages() missing 1 required positional argument: 'logger'
+2025-09-25 21:36:18,187 INFO <module>(60) User ended the session.
+2025-09-25 21:36:20,428 INFO load_keys(24) keys loaded successfully.
+2025-09-25 21:36:23,820 INFO __init__(31) [INIT] Chatbot initialized with max_history=10, keep_n=2
+2025-09-25 21:36:26,699 INFO __init__(39) [INIT] LLM initialized with GPT-4o
+2025-09-25 21:36:26,714 INFO __init__(48) [INIT] System prompt loaded successfully
+2025-09-25 21:36:26,714 INFO create_graph(69) [GRAPH] Creating conversation graph...
+2025-09-25 21:36:26,717 INFO create_graph(79) [GRAPH] Graph compiled with memory saver
+2025-09-25 21:36:26,725 INFO <module>(52) Chatbot initialized and ready!
+2025-09-25 21:36:26,725 INFO <module>(56) Using config: {'configurable': {'thread_id': '1'}}
+2025-09-25 21:36:31,279 INFO ai_chat(51) [AI_CHAT] Received 1 messages
+2025-09-25 21:36:32,673 INFO ai_chat(54) [AI_CHAT] LLM responded with: Please let me know the location you are interested in for the weather update....
+2025-09-25 21:36:32,673 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 2
+2025-09-25 21:36:32,676 INFO log_messages(16) ================================== Human Message ==================================
+2025-09-25 21:36:32,676 INFO log_messages(17) show me weather
+2025-09-25 21:36:32,677 INFO log_messages(21) ================================== Ai Message ==================================
+2025-09-25 21:36:32,677 INFO log_messages(22) Please let me know the location you are interested in for the weather update.
+2025-09-25 21:36:32,678 INFO <module>(77) State updated, total messages now: 2
+2025-09-25 21:36:55,583 INFO ai_chat(51) [AI_CHAT] Received 3 messages
+2025-09-25 21:36:56,558 INFO ai_chat(54) [AI_CHAT] LLM responded with: ...
+2025-09-25 21:36:56,559 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 4
+2025-09-25 21:36:56,994 INFO ai_chat(51) [AI_CHAT] Received 5 messages
+2025-09-25 21:36:57,773 INFO ai_chat(54) [AI_CHAT] LLM responded with: The current weather in London, United Kingdom is:
+
+- **Temperature:** 18.1ï¿½C
+- *...
+2025-09-25 21:36:57,773 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 6
+2025-09-25 21:36:57,776 INFO log_messages(16) ================================== Human Message ==================================
+2025-09-25 21:36:57,777 INFO log_messages(17) show me weather
+2025-09-25 21:36:57,777 INFO log_messages(21) ================================== Ai Message ==================================
+2025-09-25 21:36:57,777 INFO log_messages(22) Please let me know the location you are interested in for the weather update.
+2025-09-25 21:36:57,778 INFO log_messages(16) ================================== Human Message ==================================
+2025-09-25 21:36:57,778 INFO log_messages(17) show me weather of London
+2025-09-25 21:36:57,778 INFO log_messages(21) ================================== Ai Message ==================================
+2025-09-25 21:36:57,779 INFO log_messages(22) 
+2025-09-25 21:36:57,779 INFO log_messages(27) Tool Calls:
+2025-09-25 21:36:57,779 INFO log_messages(33) --------------------------------------------------------------------------------
+2025-09-25 21:36:57,779 INFO log_messages(34) Tool Function Name : get_weather
+2025-09-25 21:36:57,780 INFO log_messages(35) Tool Arguments     : {"location":"London"}
+2025-09-25 21:36:57,780 INFO log_messages(36) Tool Call ID       : call_nmDhEb9zEEoXkDhqJNMWUWGl
+2025-09-25 21:36:57,780 INFO log_messages(37) --------------------------------------------------------------------------------
+2025-09-25 21:36:57,780 INFO log_messages(41) ================================== Tool Message (Name: get_weather) ==================================
+2025-09-25 21:36:57,781 INFO log_messages(42) {"message": "Weather fetched successfully for London ", "data": {"city": "London", "country": "United Kingdom", "temperature": 18.1, "condition": "Sunny", "last_updated": "2025-09-25 17:30"}}
+2025-09-25 21:36:57,781 INFO log_messages(21) ================================== Ai Message ==================================
+2025-09-25 21:36:57,781 INFO log_messages(22) The current weather in London, United Kingdom is:
+
+- **Temperature:** 18.1ï¿½C
+- **Condition:** Sunny
+- **Last Updated:** September 25, 5:30 PM
+
+If you need more details, feel free to ask!
+2025-09-25 21:36:57,782 INFO <module>(77) State updated, total messages now: 6
+2025-09-25 21:37:52,995 INFO ai_chat(51) [AI_CHAT] Received 7 messages
+2025-09-25 21:37:54,619 INFO ai_chat(54) [AI_CHAT] LLM responded with: ...
+2025-09-25 21:37:54,619 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 8
+2025-09-25 21:37:56,580 INFO ai_chat(51) [AI_CHAT] Received 9 messages
+2025-09-25 21:38:02,632 INFO ai_chat(54) [AI_CHAT] LLM responded with: Here are the latest headlines:
+
+1. **[Jessica Chastain Disagrees with Apple's De...
+2025-09-25 21:38:02,632 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 10
+2025-09-25 21:38:02,635 INFO log_messages(16) ================================== Human Message ==================================
+2025-09-25 21:38:02,635 INFO log_messages(17) show me weather
+2025-09-25 21:38:02,635 INFO log_messages(21) ================================== Ai Message ==================================
+2025-09-25 21:38:02,635 INFO log_messages(22) Please let me know the location you are interested in for the weather update.
+2025-09-25 21:38:02,636 INFO log_messages(16) ================================== Human Message ==================================
+2025-09-25 21:38:02,636 INFO log_messages(17) show me weather of London
+2025-09-25 21:38:02,636 INFO log_messages(21) ================================== Ai Message ==================================
+2025-09-25 21:38:02,637 INFO log_messages(22) 
+2025-09-25 21:38:02,637 INFO log_messages(27) Tool Calls:
+2025-09-25 21:38:02,637 INFO log_messages(33) --------------------------------------------------------------------------------
+2025-09-25 21:38:02,638 INFO log_messages(34) Tool Function Name : get_weather
+2025-09-25 21:38:02,638 INFO log_messages(35) Tool Arguments     : {"location":"London"}
+2025-09-25 21:38:02,638 INFO log_messages(36) Tool Call ID       : call_nmDhEb9zEEoXkDhqJNMWUWGl
+2025-09-25 21:38:02,639 INFO log_messages(37) --------------------------------------------------------------------------------
+2025-09-25 21:38:02,639 INFO log_messages(41) ================================== Tool Message (Name: get_weather) ==================================
+2025-09-25 21:38:02,639 INFO log_messages(42) {"message": "Weather fetched successfully for London ", "data": {"city": "London", "country": "United Kingdom", "temperature": 18.1, "condition": "Sunny", "last_updated": "2025-09-25 17:30"}}
+2025-09-25 21:38:02,639 INFO log_messages(21) ================================== Ai Message ==================================
+2025-09-25 21:38:02,640 INFO log_messages(22) The current weather in London, United Kingdom is:
+
+- **Temperature:** 18.1ï¿½C
+- **Condition:** Sunny
+- **Last Updated:** September 25, 5:30 PM
+
+If you need more details, feel free to ask!
+2025-09-25 21:38:02,640 INFO log_messages(16) ================================== Human Message ==================================
+2025-09-25 21:38:02,640 INFO log_messages(17) show me latest headlines
+2025-09-25 21:38:02,640 INFO log_messages(21) ================================== Ai Message ==================================
+2025-09-25 21:38:02,641 INFO log_messages(22) 
+2025-09-25 21:38:02,641 INFO log_messages(27) Tool Calls:
+2025-09-25 21:38:02,641 INFO log_messages(33) --------------------------------------------------------------------------------
+2025-09-25 21:38:02,641 INFO log_messages(34) Tool Function Name : search_news
+2025-09-25 21:38:02,641 INFO log_messages(35) Tool Arguments     : {"top_headlines":true}
+2025-09-25 21:38:02,642 INFO log_messages(36) Tool Call ID       : call_6XU79esjPXEBvbvmLSY3AbEU
+2025-09-25 21:38:02,642 INFO log_messages(37) --------------------------------------------------------------------------------
+2025-09-25 21:38:02,642 INFO log_messages(41) ================================== Tool Message (Name: search_news) ==================================
+2025-09-25 21:38:02,642 INFO log_messages(42) {"message": "News fetched successfully", "count": 9, "articles": [{"source": "Hollywood Reporter", "author": "Alex Weprin", "title": "Jessica Chastain Says She Does Not Agree With Appleï¿½s Decision to Postpone ï¿½The Savantï¿½ - The Hollywood Reporter", "description": "ï¿½Weï¿½re not aligned on the decision to pause the release,ï¿½ Chastain wrote on Instagram, adding that she hopes it receives a release date soon.", "url": "http://www.hollywoodreporter.com/tv/tv-news/jessica-chastain-does-not-agree-apple-postpone-the-savant-1236378715/", "publishedAt": "2025-09-24T15:48:20Z", "content": "Jessica Chastain, the star of the Apple TV+ series The Savant, said Wednesday that she does not agree with the platformï¿½s decision to postpone its release.\r\nApple said Tuesday that it made the decisiï¿½ [+2108 chars]"}, {"source": "Associated Press", "author": "Matthew Perrone", "title": "Trump's touting of an unproven autism drug surprised many, including the doctor who proposed it - AP News", "description": "A Trump administration decision to repurpose an old chemotherapy drug for autism has surprised many experts ï¿½ including the physician who recently proposed the idea. Dr. Richard Frye tells The Associated Press he was surprised by Mondayï¿½s abrupt announcement ï¿½", "url": "https://apnews.com/article/autism-drug-leucovorin-trump-kennedy-d2b36faef3c4fc1f85e9fa9f958ad6c6", "publishedAt": "2025-09-24T15:18:00Z", "content": "WASHINGTON (AP) When President Donald Trumps administration announced it would repurpose an old, generic drug as a new treatment for autism, it came as a surprise to many experts including the physicï¿½ [+7009 chars]"}, {"source": "ESPN", "author": null, "title": "Brees, Fitzgerald headline 2026 HOF nominees - ESPN", "description": "Drew Brees and Larry Fitzgerald were picked in their first year of eligibility as two of the nominees among modern era players for the 2026 Pro Football Hall of Fame class.", "url": "https://www.espn.com/nfl/story/_/id/46366297/drew-brees-larry-fitzgerald-headline-2026-hall-fame-nominees", "publishedAt": "2025-09-24T15:09:00Z", "content": "Sep 24, 2025, 11:09 AM ET\r\nQuarterback Drew Brees and receiver Larry Fitzgerald were picked in their first year of eligibility as two of the nominees among modern era players for the 2026 Pro Footbalï¿½ [+3076 chars]"}, {"source": "BBC News", "author": null, "title": "Hamas reportedly preparing for street-to-street fighting as Israeli forces near Gaza City centre - BBC", "description": "Thousands of Palestinians have been forced to flee Gaza City since Israel launched its ground offensive last week.", "url": "https://www.bbc.com/news/articles/c4gk9dreldxo", "publishedAt": "2025-09-24T15:06:31Z", "content": "Rushdi AbualoufGaza correspondent, Istanbul\r\nIsraeli forces have neared the centre of Gaza City, as Hamas fighters reportedly regroup amid fears of intense street-to-street fighting.\r\nThousands of Paï¿½ [+3731 chars]"}, {"source": "Bloomberg", "author": "Michael Sasso", "title": "US New-Home Sales Unexpectedly Jump Over 20% in Broad Advance - Bloomberg.com", "description": "New-home sales in the US unexpectedly surged in August to the fastest pace since early 2022, likely lifted by buildersï¿½ rampant price cuts and sales incentives.", "url": "https://www.bloomberg.com/news/articles/2025-09-24/us-new-home-sales-unexpectedly-jump-over-20-in-broad-advance", "publishedAt": "2025-09-24T15:06:15Z", "content": "New-home sales in the US unexpectedly surged in August to the fastest pace since early 2022, likely lifted by builders rampant price cuts and sales incentives.\r\nSales of new single-family homes increï¿½ [+178 chars]"}, {"source": "ScienceAlert", "author": "Carly Cassella", "title": "DNA Study of 117-Year-Old Woman Reveals Clues to a Long Life - ScienceAlert", "description": "There's no escaping the unrelenting passage of time, but supercentenarians who live to see their 110th birthday have a peculiar ability to postpone the inevitable.", "url": "https://www.sciencealert.com/dna-study-of-117-year-old-woman-reveals-clues-to-a-long-life", "publishedAt": "2025-09-24T15:02:23Z", "content": "There's no escaping the unrelenting passage of time, but supercentenarians who live to see their 110th birthday have a peculiar ability to postpone the inevitable.\r\nA thorough health evaluation of onï¿½ [+3604 chars]"}, {"source": "BBC News", "author": null, "title": "Russia brushes off Trump's claim of 'paper tiger' fighting aimless war - BBC", "description": "The BBC's Steve Rosenberg says far from being riled by Trump's comments, Russia's response has so far been restrained.", "url": "https://www.bbc.com/news/articles/c3e70n4keyjo", "publishedAt": "2025-09-24T14:26:28Z", "content": "Steve RosenbergRussia editor in Moscow\r\nTrump's suggestion that Ukraine could win back all territory seized by Russia will have raised eyebrows in Moscow\r\nOn paper, there was plenty in Donald Trump'sï¿½ [+4566 chars]"}, {"source": "DW (English)", "author": "Matt Pearson", "title": "Trump's UN speech no laughing matter as body language shows - DW", "description": "When Donald Trump first took to the global political stage, not everyone took him seriously. The reaction of world leaders to his speech at the UN General Assembly shows a change in attitude, says a body language expert.", "url": "https://www.dw.com/en/trumps-un-speech-no-laughing-matter-as-body-language-shows/a-74121719", "publishedAt": "2025-09-24T14:10:18Z", "content": "It may not be the most obvious forum for laughs, but Donald Trump managed to raise a chuckle from delegates as he took to the stage for his UN General Assembly speech on Tuesday.\r\nThough this time itï¿½ [+4979 chars]"}, {"source": "Politico", "author": "Nick Niedzwiadek, Brendan Bordelon", "title": "ï¿½What just happened?ï¿½: Big Tech rocked by $100K visa fee - Politico", "description": "Tech groups are rushing to coordinate a response to the administrationï¿½s overhaul of the H-1B program.", "url": "https://www.politico.com/news/2025/09/24/tech-companies-scramble-trump-h-1b-visa-fee-00577479", "publishedAt": "2025-09-24T14:00:00Z", "content": "Tech industry representatives are weighing whether to sue over the new fee and warning that it could force top firms to forgo innovation driven by foreign-born workers or potentially shift more jobs ï¿½ [+5556 chars]"}]}
+2025-09-25 21:38:02,644 INFO log_messages(21) ================================== Ai Message ==================================
+2025-09-25 21:38:02,644 INFO log_messages(22) Here are the latest headlines:
+
+1. **[Jessica Chastain Disagrees with Apple's Decision](http://www.hollywoodreporter.com/tv/tv-news/jessica-chastain-does-not-agree-apple-postpone-the-savant-1236378715/)** - Jessica Chastain expresses her disagreement with Apple's decision to postpone 'The Savant' [Hollywood Reporter].
+
+2. **[Trump's Unproven Autism Drug](https://apnews.com/article/autism-drug-leucovorin-trump-kennedy-d2b36faef3c4fc1f85e9fa9f958ad6c6)** - A surprising decision by Trump's administration to repurpose a chemotherapy drug for autism [AP News].
+
+3. **[Drew Brees and Larry Fitzgerald Nominees for Pro Football Hall of Fame](https://www.espn.com/nfl/story/_/id/46366297/drew-brees-larry-fitzgerald-headline-2026-hall-fame-nominees)** - Both are nominated among modern era players for the 2026 class [ESPN].
+
+4. **[Hamas Prepares for Intense Fighting in Gaza](https://www.bbc.com/news/articles/c4gk9dreldxo)** - Israeli forces near Gaza City center while Hamas reportedly regroups [BBC News].
+
+5. **[US New-Home Sales Surge](https://www.bloomberg.com/news/articles/2025-09-24/us-new-home-sales-unexpectedly-jump-over-20-in-broad-advance)** - New-home sales in the US saw a significant jump, influenced by price cuts and incentives [Bloomberg].
+
+6. **[DNA Study Reveals Clues to Longevity](https://www.sciencealert.com/dna-study-of-117-year-old-woman-reveals-clues-to-a-long-life)** - Insights from the DNA of a supercentenarian [ScienceAlert].
+
+7. **[Russia Responds to Trump's 'Paper Tiger' Remarks](https://www.bbc.com/news/articles/c3e70n4keyjo)** - Russia's restrained response to Trump's comments on the war [BBC News].
+
+8. **[Trump's UN Speech](https://www.dw.com/en/trumps-un-speech-no-laughing-matter-as-body-language-shows/a-74121719)** - Reactions to Trump's address at the UN General Assembly [DW (English)].
+
+9. **[Tech Industry Responds to New Visa Fee](https://www.politico.com/news/2025/09/24/tech-companies-scramble-trump-h-1b-visa-fee-00577479)** - Big Tech is shocked by a new $100K visa fee overhaul by the administration [Politico].
+
+If you'd like more details on any of these articles, feel free to ask!
+2025-09-25 21:38:02,645 INFO <module>(77) State updated, total messages now: 10
+2025-09-25 21:43:59,990 INFO <module>(61) User ended the session.
+2025-09-25 21:44:02,988 INFO load_keys(24) keys loaded successfully.
+2025-09-25 21:44:06,341 INFO __init__(31) [INIT] Chatbot initialized with max_history=10, keep_n=2
+2025-09-25 21:44:09,210 INFO __init__(39) [INIT] LLM initialized with GPT-4o
+2025-09-25 21:44:09,223 INFO __init__(48) [INIT] System prompt loaded successfully
+2025-09-25 21:44:09,224 INFO create_graph(69) [GRAPH] Creating conversation graph...
+2025-09-25 21:44:09,226 INFO create_graph(79) [GRAPH] Graph compiled with memory saver
+2025-09-25 21:44:09,235 INFO <module>(12) Chatbot initialized and ready!
+2025-09-25 21:44:09,236 INFO <module>(16) Using config: {'configurable': {'thread_id': '1'}}
+2025-09-25 21:44:20,622 INFO ai_chat(51) [AI_CHAT] Received 1 messages
+2025-09-25 21:44:21,936 INFO ai_chat(54) [AI_CHAT] LLM responded with: ...
+2025-09-25 21:44:21,936 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 2
+2025-09-25 21:44:22,551 INFO ai_chat(51) [AI_CHAT] Received 3 messages
+2025-09-25 21:44:23,669 INFO ai_chat(54) [AI_CHAT] LLM responded with: The current weather in Islamabad, Pakistan is clear with a temperature of 26.8ï¿½C...
+2025-09-25 21:44:23,669 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 4
+2025-09-25 21:44:23,672 INFO log_messages(13) ================================== Human Message ==================================
+2025-09-25 21:44:23,672 INFO log_messages(14) show me Islamabad weather
+2025-09-25 21:44:23,673 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-25 21:44:23,673 INFO log_messages(19) 
+2025-09-25 21:44:23,674 INFO log_messages(24) Tool Calls:
+2025-09-25 21:44:23,674 INFO log_messages(30) --------------------------------------------------------------------------------
+2025-09-25 21:44:23,674 INFO log_messages(31) Tool Function Name : get_weather
+2025-09-25 21:44:23,675 INFO log_messages(32) Tool Arguments     : {"location":"Islamabad"}
+2025-09-25 21:44:23,675 INFO log_messages(33) Tool Call ID       : call_oIVRBihzPLXooJNx4SREZTaJ
+2025-09-25 21:44:23,675 INFO log_messages(34) --------------------------------------------------------------------------------
+2025-09-25 21:44:23,676 INFO log_messages(38) ================================== Tool Message (Name: get_weather) ==================================
+2025-09-25 21:44:23,676 INFO log_messages(39) {"message": "Weather fetched successfully for Islamabad ", "data": {"city": "Islamabad", "country": "Pakistan", "temperature": 26.8, "condition": "Clear", "last_updated": "2025-09-25 21:45"}}
+2025-09-25 21:44:23,676 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-25 21:44:23,677 INFO log_messages(19) The current weather in Islamabad, Pakistan is clear with a temperature of 26.8ï¿½C. The information was last updated on September 25, 2025, at 21:45. If you have any more questions or need further updates, feel free to ask!
+2025-09-25 21:44:23,677 INFO <module>(39) State updated, total messages now: 4
+2025-09-25 21:44:39,712 INFO <module>(22) User ended the session.
+2025-09-25 22:29:48,393 INFO load_keys(24) keys loaded successfully.
+2025-09-25 22:29:51,897 INFO __init__(31) [INIT] Chatbot initialized with max_history=10, keep_n=2
+2025-09-25 22:29:54,884 INFO __init__(39) [INIT] LLM initialized with GPT-4o
+2025-09-25 22:29:54,898 INFO __init__(48) [INIT] System prompt loaded successfully
+2025-09-25 22:29:54,898 INFO create_graph(69) [GRAPH] Creating conversation graph...
+2025-09-25 22:29:54,901 INFO create_graph(79) [GRAPH] Graph compiled with memory saver
+2025-09-25 22:29:54,910 INFO <module>(12) Chatbot initialized and ready!
+2025-09-25 22:29:54,910 INFO <module>(16) Using config: {'configurable': {'thread_id': '1'}}
+2025-09-25 22:30:06,129 INFO ai_chat(51) [AI_CHAT] Received 1 messages
+2025-09-25 22:30:08,100 INFO ai_chat(54) [AI_CHAT] LLM responded with: ...
+2025-09-25 22:30:08,101 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 2
+2025-09-25 22:30:12,789 INFO ai_chat(51) [AI_CHAT] Received 3 messages
+2025-09-25 22:30:17,305 INFO ai_chat(54) [AI_CHAT] LLM responded with: Here are some recent news articles about Russia:
+
+1. **[Europe Is on Its Own Wit...
+2025-09-25 22:30:17,306 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 4
+2025-09-25 22:30:17,308 INFO log_messages(13) ================================== Human Message ==================================
+2025-09-25 22:30:17,308 INFO log_messages(14) can i get news about russia 
+2025-09-25 22:30:17,309 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-25 22:30:17,309 INFO log_messages(19) 
+2025-09-25 22:30:17,309 INFO log_messages(24) Tool Calls:
+2025-09-25 22:30:17,310 INFO log_messages(30) --------------------------------------------------------------------------------
+2025-09-25 22:30:17,310 INFO log_messages(31) Tool Function Name : search_news
+2025-09-25 22:30:17,310 INFO log_messages(32) Tool Arguments     : {"query":"Russia","top_headlines":false}
+2025-09-25 22:30:17,310 INFO log_messages(33) Tool Call ID       : call_G9VyfQF6wdn6XxbEeXGWzTDo
+2025-09-25 22:30:17,311 INFO log_messages(34) --------------------------------------------------------------------------------
+2025-09-25 22:30:17,311 INFO log_messages(38) ================================== Tool Message (Name: search_news) ==================================
+2025-09-25 22:30:17,311 INFO log_messages(39) {"message": "News fetched successfully", "count": 10, "articles": [{"source": "The Indian Express", "author": "Santosh Singh", "title": "Javed Akhtar to Amol Palekar, Dalit literature to LGBTQ writers: Biharï¿½s ï¿½biggestï¿½ literary festival gets underway in Patna", "description": "The event is organised by Sahitya Akademi in collaboration with the Ministry of Culture, Government of India, and the Government of Bihar.", "url": "https://indianexpress.com/article/india/javed-akhtar-dalit-literature-lgbtq-bihar-biggest-literary-festival-patna-10269488/", "publishedAt": "2025-09-24T17:17:32Z", "content": "Patna will play host to some of the top literary minds from India and beyond as the third Unmesha International Literature Festival kicks off on Thursday. Up to 550 litterateurs and other eminent perï¿½ [+1632 chars]"}, {"source": "Fox News", "author": null, "title": "DHS blasts ï¿½fake newsï¿½ on Louisiana Lockup conditions: ï¿½False sob storiesï¿½ for child predators and murderers", "description": "Louisiana Lockup at Angola Prison houses over 70 violent illegal immigrant criminals including 26 child predators, 20 sex offenders and 28 convicted murderers.", "url": "https://www.foxnews.com/politics/dhs-lambasts-fake-news-louisiana-lockup-mistreatment-claims-false-sob-stories-worst-worst", "publishedAt": "2025-09-24T17:12:31Z", "content": "EXCLUSIVE: The Department of Homeland Security is firing back at mainstream media claims that federal officers are gravely mistreating illegal immigrant criminals being held at a sectioned-off portioï¿½ [+3526 chars]"}, {"source": "Foreign Policy", "author": "Christian Caryl", "title": "Europe Is on Its Own With Russia Now", "description": "Donald Trumpï¿½s latest U-turn on Ukraine doesnï¿½t change the naked truth for Europe.", "url": "http://foreignpolicy.com/2025/09/24/europe-nato-trump-russia-attack-ukraine-war/", "publishedAt": "2025-09-24T17:05:29Z", "content": "Has U.S. President Donald Trump finally seen the light? In a post\r\n on his Truth Social network on Sept. 23, he wrote: I think Ukraine, with the support of the European Union, is in a position to figï¿½ [+8260 chars]"}, {"source": "Sputnikglobe.com", "author": "Ekaterina Blinova", "title": "Why NATO Must Think Twice Before Threatening Russia", "description": "Western politicians often issue bombastic threats towards Russia. Behind the bluster, however, NATO military planners understand that the alliance is ill-prepared for a military confrontation with Russiaï¿½s battle-hardened army.", "url": "https://sputnikglobe.com/20250924/why-nato-must-think-twice-before-threatening-russia-1122847547.html", "publishedAt": "2025-09-24T17:05:00Z", "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20250924/why-nato-must-think-twice-before-threatening-russia-1122847547.htï¿½ [+4592 chars]"}, {"source": "OilPrice.com", "author": "Metal Miner", "title": "Precious Metal Prices Surge as Investors Seek Safe-Haven Assets", "description": "The Global Precious Metals MMI (Monthly Metals Index) moved sideways, trending up by a slight 1.14%. Despite the sideways movement, precious metals prices have been anything but stale. The past two weeks have been dramatic for the precious metals market, as gï¿½", "url": "https://oilprice.com/Metals/Commodities/Precious-Metal-Prices-Surge-as-Investors-Seek-Safe-Haven-Assets.html", "publishedAt": "2025-09-24T17:00:00Z", "content": "Global iron ore prices areï¿½\r\nThe U.S. Geological Survey hasï¿½\r\nThe Trump administration is seekingï¿½\r\nBy Metal Miner - Sep 24, 2025, 12:00 PM CDTThe Global Precious Metals MMI (Monthly Metals Index) moï¿½ [+5485 chars]"}, {"source": "The Week Magazine", "author": "theweek@futurenet.com (Justin Klawans, The Week US) , Justin Klawans, The Week US", "title": "ï¿½ExxonMobil made the right callï¿½", "description": "Opinion, comment and editorials of the day", "url": "https://theweek.com/politics/instant-opinion-exxonmobil-dating-europe-south-park", "publishedAt": "2025-09-24T16:59:13Z", "content": "ï¿½ExxonMobil is right on Russia ï¿½ a return would be a disasterï¿½\r\nEdward Verona at The Hill\r\nIt ï¿½beggars belief that any major Western company would consider returning to Russia under the current circuï¿½ [+2644 chars]"}, {"source": "BBC News", "author": null, "title": "Russia will expand aggression beyond Ukraine unless he is stopped, Zelensky warns", "description": "Vladimir Putin \"will keep driving the war forward wider and deeper\", the Ukrainian president tells the UN.", "url": "https://www.bbc.com/news/articles/c5yg921rjrko", "publishedAt": "2025-09-24T16:58:52Z", "content": "Vladimir Putin \"will keep driving the war forward wider and deeper\" if he is not stopped, Ukraine's President Zelensky has warned.\r\nSpeaking at the UN's General Assembly in New York, Zelensky said moï¿½ [+3020 chars]"}, {"source": "Seclists.org", "author": null, "title": "Re: Encryption is now illegal? (Re: U.S. Secret Service shuts down NYC cellular disruption network)", "description": "Posted by Tom Beecher via NANOG on Sep 24Yes, it's very overblown.\n\nThe reports say these items were found inside of a \"35 mile radius\" of the\nUN. The total population inside that area is roughly 17 million people.\n\n100k SIMs is a rounding error relative to tï¿½", "url": "https://seclists.org/nanog/2025/Sep/231", "publishedAt": "2025-09-24T16:57:37Z", "content": "nanog\r\nmailing list archives\r\nFrom: Tom Beecher via NANOG &lt;nanog () lists nanog org&gt;Date: Wed, 24 Sep 2025 12:56:56 -0400\r\nUpon actually reading the article, this looks overblown, typical of thï¿½ [+4213 chars]"}, {"source": "GlobeNewswire", "author": "Research and Markets", "title": "Refrigerated Warehousing and Storage Market Strategies to 2034 Featuring Lineage Logistics, AmeriCold Logistics, Penske Logistics, United States Cold Storage, and Nichirei Corporation Among Other Key Players", "description": "Key market opportunities in refrigerated warehousing include growth in frozen storage and public warehouses. Expanding in emerging markets and focusing on fruits and vegetables and meat applications offer lucrative growth. Strategic partnerships and energy-efï¿½", "url": "https://www.globenewswire.com/news-release/2025/09/24/3155727/28124/en/Refrigerated-Warehousing-and-Storage-Market-Strategies-to-2034-Featuring-Lineage-Logistics-AmeriCold-Logistics-Penske-Logistics-United-States-Cold-Storage-and-Nichirei-Corporation-.html", "publishedAt": "2025-09-24T16:54:00Z", "content": "Dublin, Sept. 24, 2025 (GLOBE NEWSWIRE) -- The \"Refrigerated Warehousing and Storage Market Opportunities and Strategies to 2034\" has been added to ResearchAndMarkets.com's offering.\r\nThe refrigerateï¿½ [+8462 chars]"}, {"source": "EURACTIV", "author": "Annie Goodykoontz", "title": "The Brief ï¿½ Tugging at Trumpï¿½s heartstrings", "description": "Perhaps there is still value in appealing to Trump's heart ï¿½ because his brain isn't listening", "url": "https://www.euractiv.com/opinion/the-brief-tugging-at-trumps-heartstrings/", "publishedAt": "2025-09-24T16:53:14Z", "content": "Deciphering the mechanics of Trumpï¿½s mood swings is by definition a foolï¿½s errand; many a strategy has been tested in the hope of developing a modus operandi even one that departs from the premise thï¿½ [+4271 chars]"}]}
+2025-09-25 22:30:17,313 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-25 22:30:17,313 INFO log_messages(19) Here are some recent news articles about Russia:
+
+1. **[Europe Is on Its Own With Russia Now](http://foreignpolicy.com/2025/09/24/europe-nato-trump-russia-attack-ukraine-war/)**
+   - **Source:** Foreign Policy
+   - **Description:** Discusses the implications of U.S. policies and NATO's stance in relation to Russia and Ukraine.
+   - **Published Date:** September 24, 2025
+
+2. **[Why NATO Must Think Twice Before Threatening Russia](https://sputnikglobe.com/20250924/why-nato-must-think-twice-before-threatening-russia-1122847547.html)**
+   - **Source:** Sputnikglobe.com
+   - **Description:** Analyzes the tension between NATO and Russia, and the challenges of a military confrontation.
+   - **Published Date:** September 24, 2025
+
+3. **[ExxonMobil made the right call](https://theweek.com/politics/instant-opinion-exxonmobil-dating-europe-south-park)**
+   - **Source:** The Week Magazine
+   - **Description:** Opinion piece on ExxonMobil's decision regarding its operations in Russia.
+   - **Published Date:** September 24, 2025
+
+4. **[Russia will expand aggression beyond Ukraine unless he is stopped, Zelensky warns](https://www.bbc.com/news/articles/c5yg921rjrko)**
+   - **Source:** BBC News
+   - **Description:** Ukrainian President Zelensky cautions that Russia's aggression will continue unless checked.
+   - **Published Date:** September 24, 2025
+
+If you have any specific questions or need more details about an article, feel free to ask!
+2025-09-25 22:30:17,314 INFO <module>(39) State updated, total messages now: 4
+2025-09-25 22:32:25,416 INFO <module>(22) User ended the session.
+2025-09-25 22:32:28,523 INFO load_keys(24) keys loaded successfully.
+2025-09-25 22:32:31,924 INFO __init__(31) [INIT] Chatbot initialized with max_history=10, keep_n=2
+2025-09-25 22:32:34,891 INFO __init__(39) [INIT] LLM initialized with GPT-4o
+2025-09-25 22:32:34,905 INFO __init__(48) [INIT] System prompt loaded successfully
+2025-09-25 22:32:34,905 INFO create_graph(69) [GRAPH] Creating conversation graph...
+2025-09-25 22:32:34,908 INFO create_graph(79) [GRAPH] Graph compiled with memory saver
+2025-09-25 22:32:34,916 INFO <module>(12) Chatbot initialized and ready!
+2025-09-25 22:32:34,916 INFO <module>(16) Using config: {'configurable': {'thread_id': '1'}}
+2025-09-25 22:32:49,434 INFO ai_chat(51) [AI_CHAT] Received 1 messages
+2025-09-25 22:33:00,991 INFO ai_chat(54) [AI_CHAT] LLM responded with: ...
+2025-09-25 22:33:00,992 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 2
+2025-09-25 22:33:05,943 INFO ai_chat(51) [AI_CHAT] Received 3 messages
+2025-09-25 22:33:12,714 INFO ai_chat(54) [AI_CHAT] LLM responded with: Here are some recent articles related to H-1B visa news in the USA:
+
+1. **H-1B V...
+2025-09-25 22:33:12,715 INFO ai_chat(65) [AI_CHAT] Appending response, total messages now: 4
+2025-09-25 22:33:12,718 INFO log_messages(13) ================================== Human Message ==================================
+2025-09-25 22:33:12,718 INFO log_messages(14) show me USA H1 visa news
+2025-09-25 22:33:12,718 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-25 22:33:12,719 INFO log_messages(19) 
+2025-09-25 22:33:12,719 INFO log_messages(24) Tool Calls:
+2025-09-25 22:33:12,719 INFO log_messages(30) --------------------------------------------------------------------------------
+2025-09-25 22:33:12,720 INFO log_messages(31) Tool Function Name : search_news
+2025-09-25 22:33:12,720 INFO log_messages(32) Tool Arguments     : {"query":"USA H1 visa"}
+2025-09-25 22:33:12,720 INFO log_messages(33) Tool Call ID       : call_7xCtrSE1r2Czzg1KK4peBU4B
+2025-09-25 22:33:12,720 INFO log_messages(34) --------------------------------------------------------------------------------
+2025-09-25 22:33:12,721 INFO log_messages(38) ================================== Tool Message (Name: search_news) ==================================
+2025-09-25 22:33:12,721 INFO log_messages(39) {"message": "News fetched successfully", "count": 9, "articles": [{"source": "NBC News", "author": "Christian Orozco", "title": "Jimmy Kimmel returns and Trump to address U.N. as allies recognize Palestinian statehood: Morning Rundown", "description": "Jimmy Kimmel is to return to late-night TV, but many households still may not be able to see the show.", "url_for_details": "https://www.nbcnews.com/news/us-news/jimmy-kimmel-returns-trump-address-un-allies-recognize-palestinian-sta-rcna233108", "publishedAt": "2025-09-23T11:16:45Z", "content": "Jimmy Kimmel is to return to late-night TV, but many households still may not be able to see the show. Trump claims acetaminophen use in pregnancy may cause autism, without clear proof. And, the presï¿½ [+6173 chars]"}, {"source": "Resilience", "author": "Semine Long-Callesen", "title": "There is nothing new about renewable energy: Tracing the life of solar panels", "description": "Industrial-scale renewable energy does not offer an alternative to the capitalist order and its exploitative relationships to earth.", "url_for_details": "https://www.resilience.org/stories/2025-09-23/there-is-nothing-new-about-renewable-energy-tracing-the-life-of-solar-panels/", "publishedAt": "2025-09-23T10:51:46Z", "content": "The transition to renewable energy sources ï¿½ wind, water, and solar ï¿½ away from coal, oil, and gas is an industry and policy stunt that never really happened, if you ask Alexander A. Dunlap, postdoc ï¿½ [+7929 chars]"}, {"source": "Forbes", "author": "Alison Coleman, Senior Contributor, \n Alison Coleman, Senior Contributor\n https://www.forbes.com/sites/alisoncoleman/", "title": "Dubai Reinvented - The City Thatï¿½s Become A Huge Draw For Entrepreneurs", "description": "Once little more than a trading outpost on the edge of the desert, Dubai has transformed itself into one of the worldï¿½s most magnetic hubs for entrepreneurs.", "url_for_details": "https://www.forbes.com/sites/alisoncoleman/2025/09/23/dubai-reinventedthe-city-thats-become-a-huge-draw-for-entrepreneurs/", "publishedAt": "2025-09-23T09:50:01Z", "content": "Dubai's flourishing startup scene\r\ngetty\r\nOnce little more than a trading outpost on the edge of the desert, Dubai has transformed itself into one of the worlds most magnetic hubs for entrepreneurs. ï¿½ [+7017 chars]"}, {"source": "Forbes", "author": "Doug Melville, Contributor, \n Doug Melville, Contributor\n https://www.forbes.com/sites/dougmelville/", "title": "H-1B Visas Are Changing: $100,000 Renewals In, Lottery System On Itï¿½s Way Out?", "description": "Each year, roughly 85,000 new H-1B visas are awarded in the US. Now they will come with a $100,000 fee, and will be weighted on merit and not the lottery.", "url_for_details": "https://www.forbes.com/sites/dougmelville/2025/09/21/h-1b-visas-are-changing-100000-renewals-in-lottery-system-on-its-way-out/", "publishedAt": "2025-09-21T22:31:20Z", "content": "Concept of H1b Visa for foreign workers showing wooden letters with US or United states flag as background\r\ngetty\r\nThe H1-B visa immigration program was born in 1990 and designed for highly-educated,ï¿½ [+4375 chars]"}, {"source": "Ndtvprofit.com", "author": "Anas Ali", "title": "H1-B Restrictions Impact: Last-Minute Bookings From India To USA Surge, Says MakeMyTrip", "description": "There has been an unusual surge in last-minute flight bookings to the United States since Thursday morning, following US President Donald Trump's announcement of a $100,000 fee for H1B visa applicants, a MakeMyTrip spokesperson told NDTV Profit. The trend is ï¿½", "url_for_details": "https://www.ndtvprofit.com/business/h1-b-restrictions-impact-last-minute-bookings-from-india-to-usa-surge-says-makemytrip", "publishedAt": "2025-09-21T11:00:41Z", "content": "Companies like Microsoft and Meta even asked their employees to return to the United States as soon as possible, fearing that the point of entry could pose a problem for even an existing H1B visa useï¿½ [+763 chars]"}, {"source": "Freerepublic.com", "author": "Reuters MSN News", "title": "India says that Trump's H-1B visa fee hike could disrupt families", "description": "India said on Saturday that the Trump administrationï¿½s move to increase U.S. H-1B visa fees to $100,000 per year was likely to have humanitarian consequences, warning of potential disruptions for families. India was the largest beneficiary of the U.S. H-1B skï¿½", "url_for_details": "https://freerepublic.com/focus/f-chat/4341732/posts", "publishedAt": "2025-09-20T16:15:29Z", "content": "Skip to comments.\r\nIndia says that Trump's H-1B visa fee hike could disrupt familiesReuters MSN News ^\r\n | 9/20/2025\r\n | Shivam Patel. Sarita Chaganti Singh\r\nPosted on 09/20/2025 9:15:29 AM PDT by maï¿½ [+4162 chars]"}, {"source": "The Times of India", "author": "ET Online", "title": "H-1B visa fee hike triggers meme tsunami: Netizens say 'ab hogi Sanskrit mein coding'. Check the best ones here", "description": "President Trump's executive order introduces a $100,000 annual fee for H-1B visa applicants, impacting skilled foreign workers, especially Indians. This move, citing program \"abuse,\" has sparked concerns among tech giants and triggered a wave of humorous memeï¿½", "url_for_details": "https://economictimes.indiatimes.com/news/international/global-trends/us-news-h-1b-visa-fee-hike-triggers-meme-tsunami-netizens-say-ab-hogi-sanskrit-mein-coding-check-the-best-ones-here/articleshow/124017627.cms", "publishedAt": "2025-09-20T15:52:12Z", "content": "US President Donald Trump has signed an executive order that will add a $100,000 (ï¿½74,000) annual fee for applicants to the H-1B visa programme for skilled foreign workers. Trump's order mentions \"abï¿½ [+4626 chars]"}, {"source": "The Indian Express", "author": "Express News Service", "title": "$1,00,000 on H-1B Visa rattles Indiaï¿½s IT industry, sparks fear of job losses", "description": "India accounts for around 70 per cent of the H-1B visas issued to technical talent by the US to foreign workers.", "url_for_details": "https://indianexpress.com/article/cities/pune/100000-on-h-1b-visa-rattles-indias-it-industry-sparks-fear-of-job-losses-10261773/", "publishedAt": "2025-09-20T15:39:31Z", "content": "US president Donald Trumps decision to impose a $1,00,000ï¿½ fee on the H-1B visa has led industry experts to believe that the move would have both immediate and lasting consequences. In the short termï¿½ [+2262 chars]"}, {"source": "Freerepublic.com", "author": "Newsweek", "title": "H-1B Visas Face Major Change Under New Proposal", "description": "A new proposal by Senator Jim Banks aims to restructure the H-1B visa system, drastically raising wage requirements and limiting alternatives companies use to hire foreign workers. -snip- The American Tech Workforce Act includes three main reforms. First, it ï¿½", "url_for_details": "https://freerepublic.com/focus/f-chat/4341575/posts", "publishedAt": "2025-09-19T19:39:06Z", "content": "Skip to comments.\r\nH-1B Visas Face Major Change Under New ProposalNewsweek ^\r\n | 9/19/2025\r\n | Theo Burman\r\nPosted on 09/19/2025 12:39:06 PM PDT by marcusmaximus\r\nA new proposal by Senator Jim Banks ï¿½ [+2201 chars]"}]}
+2025-09-25 22:33:12,722 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-25 22:33:12,723 INFO log_messages(19) Here are some recent articles related to H-1B visa news in the USA:
+
+1. **H-1B Visas Are Changing: $100,000 Renewals In, Lottery System On It's Way Out?**
+   - **Source:** Forbes
+   - **Author:** Doug Melville
+   - **Description:** The traditional lottery system for H-1B visas might be replaced with a merit-based system, and the renewal fee could increase to $100,000.
+   - **Published At:** September 21, 2025
+   - [Read more](https://www.forbes.com/sites/dougmelville/2025/09/21/h-1b-visas-are-changing-100000-renewals-in-lottery-system-on-its-way-out/)
+
+2. **H1-B Restrictions Impact: Last-Minute Bookings From India To USA Surge, Says MakeMyTrip**
+   - **Source:** Ndtvprofit.com
+   - **Author:** Anas Ali
+   - **Description:** Following the announcement of new H-1B visa fees, there has been a surge in last-minute flight bookings from India to the USA.
+   - **Published At:** September 21, 2025
+   - [Read more](https://www.ndtvprofit.com/business/h1-b-restrictions-impact-last-minute-bookings-from-india-to-usa-surge-says-makemytrip)
+
+3. **India says that Trump's H-1B visa fee hike could disrupt families**
+   - **Source:** Freerepublic.com
+   - **Author:** Reuters MSN News
+   - **Description:** India's government expresses concern over the $100,000 H-1B visa fees, stating potential disruptions for families.
+   - **Published At:** September 20, 2025
+   - [Read more](https://freerepublic.com/focus/f-chat/4341732/posts)
+
+4. **$1,00,000 on H-1B Visa rattles Indiaï¿½s IT industry, sparks fear of job losses**
+   - **Source:** The Indian Express
+   - **Author:** Express News Service
+   - **Description:** The Indian IT industry is worried about the impact of the $100,000 fee on H-1B visas, fearing job losses.
+   - **Published At:** September 20, 2025
+   - [Read more](https://indianexpress.com/article/cities/pune/100000-on-h-1b-visa-rattles-indias-it-industry-sparks-fear-of-job-losses-10261773/)
+
+If you have further questions or need more information on the H-1B visa topic, feel free to let me know!
+2025-09-25 22:33:12,724 INFO <module>(39) State updated, total messages now: 4
+2025-09-25 22:34:30,701 INFO <module>(22) User ended the session.
+2025-09-25 22:34:33,866 INFO load_keys(24) keys loaded successfully.
+2025-09-25 22:34:37,445 INFO __init__(31) Chatbot initialized with max_history=10, Keep messages after reset=2
+2025-09-25 22:34:40,407 INFO __init__(39) LLM initialized with: gpt-4o
+2025-09-25 22:34:40,422 INFO __init__(48) Chabot Agent prompt loaded successfully
+2025-09-25 22:34:40,422 INFO create_graph(65) [GRAPH] Creating conversation graph...
+2025-09-25 22:34:40,424 INFO create_graph(75) [GRAPH] Graph compiled with memory saver
+2025-09-25 22:34:40,433 INFO <module>(12) Chatbot initialized and ready!
+2025-09-25 22:34:40,434 INFO <module>(16) Using config: {'configurable': {'thread_id': '1'}}
+2025-09-25 22:34:58,596 INFO ai_chat(61) [AI_CHAT] Appending response, total messages now: 2
+2025-09-25 22:35:20,891 INFO ai_chat(61) [AI_CHAT] Appending response, total messages now: 4
+2025-09-25 22:35:20,893 INFO log_messages(13) ================================== Human Message ==================================
+2025-09-25 22:35:20,894 INFO log_messages(14) news about usa h1 visa
+2025-09-25 22:35:20,894 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-25 22:35:20,894 INFO log_messages(19) 
+2025-09-25 22:35:20,894 INFO log_messages(24) Tool Calls:
+2025-09-25 22:35:20,894 INFO log_messages(30) --------------------------------------------------------------------------------
+2025-09-25 22:35:20,895 INFO log_messages(31) Tool Function Name : search_news
+2025-09-25 22:35:20,895 INFO log_messages(32) Tool Arguments     : {"query":"USA H1 visa"}
+2025-09-25 22:35:20,895 INFO log_messages(33) Tool Call ID       : call_jrtg2eNvLZwVOxSp9oPXUIHz
+2025-09-25 22:35:20,896 INFO log_messages(34) --------------------------------------------------------------------------------
+2025-09-25 22:35:20,896 INFO log_messages(38) ================================== Tool Message (Name: search_news) ==================================
+2025-09-25 22:35:20,896 INFO log_messages(39) {"message": "News fetched successfully", "count": 9, "articles": [{"source": "NBC News", "author": "Christian Orozco", "title": "Jimmy Kimmel returns and Trump to address U.N. as allies recognize Palestinian statehood: Morning Rundown", "description": "Jimmy Kimmel is to return to late-night TV, but many households still may not be able to see the show.", "url_for_details": "https://www.nbcnews.com/news/us-news/jimmy-kimmel-returns-trump-address-un-allies-recognize-palestinian-sta-rcna233108", "publishedAt": "2025-09-23T11:16:45Z", "content": "Jimmy Kimmel is to return to late-night TV, but many households still may not be able to see the show. Trump claims acetaminophen use in pregnancy may cause autism, without clear proof. And, the presï¿½ [+6173 chars]"}, {"source": "Resilience", "author": "Semine Long-Callesen", "title": "There is nothing new about renewable energy: Tracing the life of solar panels", "description": "Industrial-scale renewable energy does not offer an alternative to the capitalist order and its exploitative relationships to earth.", "url_for_details": "https://www.resilience.org/stories/2025-09-23/there-is-nothing-new-about-renewable-energy-tracing-the-life-of-solar-panels/", "publishedAt": "2025-09-23T10:51:46Z", "content": "The transition to renewable energy sources ï¿½ wind, water, and solar ï¿½ away from coal, oil, and gas is an industry and policy stunt that never really happened, if you ask Alexander A. Dunlap, postdoc ï¿½ [+7929 chars]"}, {"source": "Forbes", "author": "Alison Coleman, Senior Contributor, \n Alison Coleman, Senior Contributor\n https://www.forbes.com/sites/alisoncoleman/", "title": "Dubai Reinvented - The City Thatï¿½s Become A Huge Draw For Entrepreneurs", "description": "Once little more than a trading outpost on the edge of the desert, Dubai has transformed itself into one of the worldï¿½s most magnetic hubs for entrepreneurs.", "url_for_details": "https://www.forbes.com/sites/alisoncoleman/2025/09/23/dubai-reinventedthe-city-thats-become-a-huge-draw-for-entrepreneurs/", "publishedAt": "2025-09-23T09:50:01Z", "content": "Dubai's flourishing startup scene\r\ngetty\r\nOnce little more than a trading outpost on the edge of the desert, Dubai has transformed itself into one of the worlds most magnetic hubs for entrepreneurs. ï¿½ [+7017 chars]"}, {"source": "Forbes", "author": "Doug Melville, Contributor, \n Doug Melville, Contributor\n https://www.forbes.com/sites/dougmelville/", "title": "H-1B Visas Are Changing: $100,000 Renewals In, Lottery System On Itï¿½s Way Out?", "description": "Each year, roughly 85,000 new H-1B visas are awarded in the US. Now they will come with a $100,000 fee, and will be weighted on merit and not the lottery.", "url_for_details": "https://www.forbes.com/sites/dougmelville/2025/09/21/h-1b-visas-are-changing-100000-renewals-in-lottery-system-on-its-way-out/", "publishedAt": "2025-09-21T22:31:20Z", "content": "Concept of H1b Visa for foreign workers showing wooden letters with US or United states flag as background\r\ngetty\r\nThe H1-B visa immigration program was born in 1990 and designed for highly-educated,ï¿½ [+4375 chars]"}, {"source": "Ndtvprofit.com", "author": "Anas Ali", "title": "H1-B Restrictions Impact: Last-Minute Bookings From India To USA Surge, Says MakeMyTrip", "description": "There has been an unusual surge in last-minute flight bookings to the United States since Thursday morning, following US President Donald Trump's announcement of a $100,000 fee for H1B visa applicants, a MakeMyTrip spokesperson told NDTV Profit. The trend is ï¿½", "url_for_details": "https://www.ndtvprofit.com/business/h1-b-restrictions-impact-last-minute-bookings-from-india-to-usa-surge-says-makemytrip", "publishedAt": "2025-09-21T11:00:41Z", "content": "Companies like Microsoft and Meta even asked their employees to return to the United States as soon as possible, fearing that the point of entry could pose a problem for even an existing H1B visa useï¿½ [+763 chars]"}, {"source": "Freerepublic.com", "author": "Reuters MSN News", "title": "India says that Trump's H-1B visa fee hike could disrupt families", "description": "India said on Saturday that the Trump administrationï¿½s move to increase U.S. H-1B visa fees to $100,000 per year was likely to have humanitarian consequences, warning of potential disruptions for families. India was the largest beneficiary of the U.S. H-1B skï¿½", "url_for_details": "https://freerepublic.com/focus/f-chat/4341732/posts", "publishedAt": "2025-09-20T16:15:29Z", "content": "Skip to comments.\r\nIndia says that Trump's H-1B visa fee hike could disrupt familiesReuters MSN News ^\r\n | 9/20/2025\r\n | Shivam Patel. Sarita Chaganti Singh\r\nPosted on 09/20/2025 9:15:29 AM PDT by maï¿½ [+4162 chars]"}, {"source": "The Times of India", "author": "ET Online", "title": "H-1B visa fee hike triggers meme tsunami: Netizens say 'ab hogi Sanskrit mein coding'. Check the best ones here", "description": "President Trump's executive order introduces a $100,000 annual fee for H-1B visa applicants, impacting skilled foreign workers, especially Indians. This move, citing program \"abuse,\" has sparked concerns among tech giants and triggered a wave of humorous memeï¿½", "url_for_details": "https://economictimes.indiatimes.com/news/international/global-trends/us-news-h-1b-visa-fee-hike-triggers-meme-tsunami-netizens-say-ab-hogi-sanskrit-mein-coding-check-the-best-ones-here/articleshow/124017627.cms", "publishedAt": "2025-09-20T15:52:12Z", "content": "US President Donald Trump has signed an executive order that will add a $100,000 (ï¿½74,000) annual fee for applicants to the H-1B visa programme for skilled foreign workers. Trump's order mentions \"abï¿½ [+4626 chars]"}, {"source": "The Indian Express", "author": "Express News Service", "title": "$1,00,000 on H-1B Visa rattles Indiaï¿½s IT industry, sparks fear of job losses", "description": "India accounts for around 70 per cent of the H-1B visas issued to technical talent by the US to foreign workers.", "url_for_details": "https://indianexpress.com/article/cities/pune/100000-on-h-1b-visa-rattles-indias-it-industry-sparks-fear-of-job-losses-10261773/", "publishedAt": "2025-09-20T15:39:31Z", "content": "US president Donald Trumps decision to impose a $1,00,000ï¿½ fee on the H-1B visa has led industry experts to believe that the move would have both immediate and lasting consequences. In the short termï¿½ [+2262 chars]"}, {"source": "Freerepublic.com", "author": "Newsweek", "title": "H-1B Visas Face Major Change Under New Proposal", "description": "A new proposal by Senator Jim Banks aims to restructure the H-1B visa system, drastically raising wage requirements and limiting alternatives companies use to hire foreign workers. -snip- The American Tech Workforce Act includes three main reforms. First, it ï¿½", "url_for_details": "https://freerepublic.com/focus/f-chat/4341575/posts", "publishedAt": "2025-09-19T19:39:06Z", "content": "Skip to comments.\r\nH-1B Visas Face Major Change Under New ProposalNewsweek ^\r\n | 9/19/2025\r\n | Theo Burman\r\nPosted on 09/19/2025 12:39:06 PM PDT by marcusmaximus\r\nA new proposal by Senator Jim Banks ï¿½ [+2201 chars]"}]}
+2025-09-25 22:35:20,897 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-25 22:35:20,898 INFO log_messages(19) Here are some recent articles about the H-1B visa in the USA:
+
+1. **H-1B Visas Are Changing: $100,000 Renewals In, Lottery System On Itï¿½s Way Out?**
+   - **Source**: Forbes
+   - **Author**: Doug Melville
+   - **Published**: September 21, 2025
+   - **Summary**: Each year, roughly 85,000 new H-1B visas are awarded in the US. Now they will come with a $100,000 fee, and will be weighted on merit and not the lottery.
+   - [Read more](https://www.forbes.com/sites/dougmelville/2025/09/21/h-1b-visas-are-changing-100000-renewals-in-lottery-system-on-its-way-out/)
+
+2. **H1-B Restrictions Impact: Last-Minute Bookings From India To USA Surge, Says MakeMyTrip**
+   - **Source**: Ndtvprofit.com
+   - **Author**: Anas Ali
+   - **Published**: September 21, 2025
+   - **Summary**: There has been an unusual surge in last-minute flight bookings to the United States following the announcement of a $100,000 fee for H1B visa applicants.
+   - [Read more](https://www.ndtvprofit.com/business/h1-b-restrictions-impact-last-minute-bookings-from-india-to-usa-surge-says-makemytrip)
+
+3. **India says that Trump's H-1B visa fee hike could disrupt families**
+   - **Source**: Freerepublic.com
+   - **Author**: Reuters MSN News
+   - **Published**: September 20, 2025
+   - **Summary**: India warned that the Trump administrationï¿½s move to increase U.S. H-1B visa fees to $100,000 per year will likely have humanitarian consequences and disrupt families.
+   - [Read more](https://freerepublic.com/focus/f-chat/4341732/posts)
+
+4. **H-1B visa fee hike triggers meme tsunami: Netizens say 'ab hogi Sanskrit mein coding'. Check the best ones here**
+   - **Source**: The Times of India
+   - **Published**: September 20, 2025
+   - **Summary**: President Trump's executive order to a $100,000 fee for H-1B visa sparked widespread concerns and a wave of humorous memes among netizens.
+   - [Read more](https://economictimes.indiatimes.com/news/international/global-trends/us-news-h-1b-visa-fee-hike-triggers-meme-tsunami-netizens-say-ab-hogi-sanskrit-mein-coding-check-the-best-ones-here/articleshow/124017627.cms)
+
+5. **$1,00,000 on H-1B Visa rattles Indiaï¿½s IT industry, sparks fear of job losses**
+   - **Source**: The Indian Express
+   - **Published**: September 20, 2025
+   - **Summary**: The decision to impose a $100,000 fee on the H-1B visa is expected to have significant consequences for the Indian IT industry, which accounts for 70% of H-1B visa holders.
+   - [Read more](https://indianexpress.com/article/cities/pune/100000-on-h-1b-visa-rattles-indias-it-industry-sparks-fear-of-job-losses-10261773/)
+
+These articles cover the recent changes and impacts surrounding the H-1B visa policies.
+2025-09-25 22:35:20,900 INFO <module>(39) State updated, total messages now: 4
+2025-09-25 22:53:18,792 INFO ai_chat(61) [AI_CHAT] Appending response, total messages now: 6
+2025-09-25 22:53:22,844 INFO ai_chat(61) [AI_CHAT] Appending response, total messages now: 8
+2025-09-25 22:53:22,847 INFO log_messages(13) ================================== Human Message ==================================
+2025-09-25 22:53:22,848 INFO log_messages(14) news about usa h1 visa
+2025-09-25 22:53:22,848 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-25 22:53:22,848 INFO log_messages(19) 
+2025-09-25 22:53:22,849 INFO log_messages(24) Tool Calls:
+2025-09-25 22:53:22,849 INFO log_messages(30) --------------------------------------------------------------------------------
+2025-09-25 22:53:22,849 INFO log_messages(31) Tool Function Name : search_news
+2025-09-25 22:53:22,849 INFO log_messages(32) Tool Arguments     : {"query":"USA H1 visa"}
+2025-09-25 22:53:22,850 INFO log_messages(33) Tool Call ID       : call_jrtg2eNvLZwVOxSp9oPXUIHz
+2025-09-25 22:53:22,850 INFO log_messages(34) --------------------------------------------------------------------------------
+2025-09-25 22:53:22,850 INFO log_messages(38) ================================== Tool Message (Name: search_news) ==================================
+2025-09-25 22:53:22,851 INFO log_messages(39) {"message": "News fetched successfully", "count": 9, "articles": [{"source": "NBC News", "author": "Christian Orozco", "title": "Jimmy Kimmel returns and Trump to address U.N. as allies recognize Palestinian statehood: Morning Rundown", "description": "Jimmy Kimmel is to return to late-night TV, but many households still may not be able to see the show.", "url_for_details": "https://www.nbcnews.com/news/us-news/jimmy-kimmel-returns-trump-address-un-allies-recognize-palestinian-sta-rcna233108", "publishedAt": "2025-09-23T11:16:45Z", "content": "Jimmy Kimmel is to return to late-night TV, but many households still may not be able to see the show. Trump claims acetaminophen use in pregnancy may cause autism, without clear proof. And, the presï¿½ [+6173 chars]"}, {"source": "Resilience", "author": "Semine Long-Callesen", "title": "There is nothing new about renewable energy: Tracing the life of solar panels", "description": "Industrial-scale renewable energy does not offer an alternative to the capitalist order and its exploitative relationships to earth.", "url_for_details": "https://www.resilience.org/stories/2025-09-23/there-is-nothing-new-about-renewable-energy-tracing-the-life-of-solar-panels/", "publishedAt": "2025-09-23T10:51:46Z", "content": "The transition to renewable energy sources ï¿½ wind, water, and solar ï¿½ away from coal, oil, and gas is an industry and policy stunt that never really happened, if you ask Alexander A. Dunlap, postdoc ï¿½ [+7929 chars]"}, {"source": "Forbes", "author": "Alison Coleman, Senior Contributor, \n Alison Coleman, Senior Contributor\n https://www.forbes.com/sites/alisoncoleman/", "title": "Dubai Reinvented - The City Thatï¿½s Become A Huge Draw For Entrepreneurs", "description": "Once little more than a trading outpost on the edge of the desert, Dubai has transformed itself into one of the worldï¿½s most magnetic hubs for entrepreneurs.", "url_for_details": "https://www.forbes.com/sites/alisoncoleman/2025/09/23/dubai-reinventedthe-city-thats-become-a-huge-draw-for-entrepreneurs/", "publishedAt": "2025-09-23T09:50:01Z", "content": "Dubai's flourishing startup scene\r\ngetty\r\nOnce little more than a trading outpost on the edge of the desert, Dubai has transformed itself into one of the worlds most magnetic hubs for entrepreneurs. ï¿½ [+7017 chars]"}, {"source": "Forbes", "author": "Doug Melville, Contributor, \n Doug Melville, Contributor\n https://www.forbes.com/sites/dougmelville/", "title": "H-1B Visas Are Changing: $100,000 Renewals In, Lottery System On Itï¿½s Way Out?", "description": "Each year, roughly 85,000 new H-1B visas are awarded in the US. Now they will come with a $100,000 fee, and will be weighted on merit and not the lottery.", "url_for_details": "https://www.forbes.com/sites/dougmelville/2025/09/21/h-1b-visas-are-changing-100000-renewals-in-lottery-system-on-its-way-out/", "publishedAt": "2025-09-21T22:31:20Z", "content": "Concept of H1b Visa for foreign workers showing wooden letters with US or United states flag as background\r\ngetty\r\nThe H1-B visa immigration program was born in 1990 and designed for highly-educated,ï¿½ [+4375 chars]"}, {"source": "Ndtvprofit.com", "author": "Anas Ali", "title": "H1-B Restrictions Impact: Last-Minute Bookings From India To USA Surge, Says MakeMyTrip", "description": "There has been an unusual surge in last-minute flight bookings to the United States since Thursday morning, following US President Donald Trump's announcement of a $100,000 fee for H1B visa applicants, a MakeMyTrip spokesperson told NDTV Profit. The trend is ï¿½", "url_for_details": "https://www.ndtvprofit.com/business/h1-b-restrictions-impact-last-minute-bookings-from-india-to-usa-surge-says-makemytrip", "publishedAt": "2025-09-21T11:00:41Z", "content": "Companies like Microsoft and Meta even asked their employees to return to the United States as soon as possible, fearing that the point of entry could pose a problem for even an existing H1B visa useï¿½ [+763 chars]"}, {"source": "Freerepublic.com", "author": "Reuters MSN News", "title": "India says that Trump's H-1B visa fee hike could disrupt families", "description": "India said on Saturday that the Trump administrationï¿½s move to increase U.S. H-1B visa fees to $100,000 per year was likely to have humanitarian consequences, warning of potential disruptions for families. India was the largest beneficiary of the U.S. H-1B skï¿½", "url_for_details": "https://freerepublic.com/focus/f-chat/4341732/posts", "publishedAt": "2025-09-20T16:15:29Z", "content": "Skip to comments.\r\nIndia says that Trump's H-1B visa fee hike could disrupt familiesReuters MSN News ^\r\n | 9/20/2025\r\n | Shivam Patel. Sarita Chaganti Singh\r\nPosted on 09/20/2025 9:15:29 AM PDT by maï¿½ [+4162 chars]"}, {"source": "The Times of India", "author": "ET Online", "title": "H-1B visa fee hike triggers meme tsunami: Netizens say 'ab hogi Sanskrit mein coding'. Check the best ones here", "description": "President Trump's executive order introduces a $100,000 annual fee for H-1B visa applicants, impacting skilled foreign workers, especially Indians. This move, citing program \"abuse,\" has sparked concerns among tech giants and triggered a wave of humorous memeï¿½", "url_for_details": "https://economictimes.indiatimes.com/news/international/global-trends/us-news-h-1b-visa-fee-hike-triggers-meme-tsunami-netizens-say-ab-hogi-sanskrit-mein-coding-check-the-best-ones-here/articleshow/124017627.cms", "publishedAt": "2025-09-20T15:52:12Z", "content": "US President Donald Trump has signed an executive order that will add a $100,000 (ï¿½74,000) annual fee for applicants to the H-1B visa programme for skilled foreign workers. Trump's order mentions \"abï¿½ [+4626 chars]"}, {"source": "The Indian Express", "author": "Express News Service", "title": "$1,00,000 on H-1B Visa rattles Indiaï¿½s IT industry, sparks fear of job losses", "description": "India accounts for around 70 per cent of the H-1B visas issued to technical talent by the US to foreign workers.", "url_for_details": "https://indianexpress.com/article/cities/pune/100000-on-h-1b-visa-rattles-indias-it-industry-sparks-fear-of-job-losses-10261773/", "publishedAt": "2025-09-20T15:39:31Z", "content": "US president Donald Trumps decision to impose a $1,00,000ï¿½ fee on the H-1B visa has led industry experts to believe that the move would have both immediate and lasting consequences. In the short termï¿½ [+2262 chars]"}, {"source": "Freerepublic.com", "author": "Newsweek", "title": "H-1B Visas Face Major Change Under New Proposal", "description": "A new proposal by Senator Jim Banks aims to restructure the H-1B visa system, drastically raising wage requirements and limiting alternatives companies use to hire foreign workers. -snip- The American Tech Workforce Act includes three main reforms. First, it ï¿½", "url_for_details": "https://freerepublic.com/focus/f-chat/4341575/posts", "publishedAt": "2025-09-19T19:39:06Z", "content": "Skip to comments.\r\nH-1B Visas Face Major Change Under New ProposalNewsweek ^\r\n | 9/19/2025\r\n | Theo Burman\r\nPosted on 09/19/2025 12:39:06 PM PDT by marcusmaximus\r\nA new proposal by Senator Jim Banks ï¿½ [+2201 chars]"}]}
+2025-09-25 22:53:22,852 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-25 22:53:22,852 INFO log_messages(19) Here are some recent articles about the H-1B visa in the USA:
+
+1. **H-1B Visas Are Changing: $100,000 Renewals In, Lottery System On Itï¿½s Way Out?**
+   - **Source**: Forbes
+   - **Author**: Doug Melville
+   - **Published**: September 21, 2025
+   - **Summary**: Each year, roughly 85,000 new H-1B visas are awarded in the US. Now they will come with a $100,000 fee, and will be weighted on merit and not the lottery.
+   - [Read more](https://www.forbes.com/sites/dougmelville/2025/09/21/h-1b-visas-are-changing-100000-renewals-in-lottery-system-on-its-way-out/)
+
+2. **H1-B Restrictions Impact: Last-Minute Bookings From India To USA Surge, Says MakeMyTrip**
+   - **Source**: Ndtvprofit.com
+   - **Author**: Anas Ali
+   - **Published**: September 21, 2025
+   - **Summary**: There has been an unusual surge in last-minute flight bookings to the United States following the announcement of a $100,000 fee for H1B visa applicants.
+   - [Read more](https://www.ndtvprofit.com/business/h1-b-restrictions-impact-last-minute-bookings-from-india-to-usa-surge-says-makemytrip)
+
+3. **India says that Trump's H-1B visa fee hike could disrupt families**
+   - **Source**: Freerepublic.com
+   - **Author**: Reuters MSN News
+   - **Published**: September 20, 2025
+   - **Summary**: India warned that the Trump administrationï¿½s move to increase U.S. H-1B visa fees to $100,000 per year will likely have humanitarian consequences and disrupt families.
+   - [Read more](https://freerepublic.com/focus/f-chat/4341732/posts)
+
+4. **H-1B visa fee hike triggers meme tsunami: Netizens say 'ab hogi Sanskrit mein coding'. Check the best ones here**
+   - **Source**: The Times of India
+   - **Published**: September 20, 2025
+   - **Summary**: President Trump's executive order to a $100,000 fee for H-1B visa sparked widespread concerns and a wave of humorous memes among netizens.
+   - [Read more](https://economictimes.indiatimes.com/news/international/global-trends/us-news-h-1b-visa-fee-hike-triggers-meme-tsunami-netizens-say-ab-hogi-sanskrit-mein-coding-check-the-best-ones-here/articleshow/124017627.cms)
+
+5. **$1,00,000 on H-1B Visa rattles Indiaï¿½s IT industry, sparks fear of job losses**
+   - **Source**: The Indian Express
+   - **Published**: September 20, 2025
+   - **Summary**: The decision to impose a $100,000 fee on the H-1B visa is expected to have significant consequences for the Indian IT industry, which accounts for 70% of H-1B visa holders.
+   - [Read more](https://indianexpress.com/article/cities/pune/100000-on-h-1b-visa-rattles-indias-it-industry-sparks-fear-of-job-losses-10261773/)
+
+These articles cover the recent changes and impacts surrounding the H-1B visa policies.
+2025-09-25 22:53:22,853 INFO log_messages(13) ================================== Human Message ==================================
+2025-09-25 22:53:22,853 INFO log_messages(14) shoe me weather of London wind speed and humidity too
+2025-09-25 22:53:22,853 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-25 22:53:22,854 INFO log_messages(19) 
+2025-09-25 22:53:22,854 INFO log_messages(24) Tool Calls:
+2025-09-25 22:53:22,854 INFO log_messages(30) --------------------------------------------------------------------------------
+2025-09-25 22:53:22,854 INFO log_messages(31) Tool Function Name : get_weather
+2025-09-25 22:53:22,855 INFO log_messages(32) Tool Arguments     : {"location":"London","include_humidity":true,"include_wind_speed":true}
+2025-09-25 22:53:22,855 INFO log_messages(33) Tool Call ID       : call_XphSqdn4ejKCfAbJ5xBqiGD1
+2025-09-25 22:53:22,855 INFO log_messages(34) --------------------------------------------------------------------------------
+2025-09-25 22:53:22,855 INFO log_messages(38) ================================== Tool Message (Name: get_weather) ==================================
+2025-09-25 22:53:22,856 INFO log_messages(39) {"message": "Weather fetched successfully for London ", "data": {"city": "London", "country": "United Kingdom", "temperature": 17.1, "condition": "Sunny", "last_updated": "2025-09-25 18:30", "humidity": 36, "wind_speed": 14.8}}
+2025-09-25 22:53:22,856 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-25 22:53:22,856 INFO log_messages(19) Here's the current weather for London, United Kingdom:
+
+- **Temperature**: 17.1ï¿½C
+- **Condition**: Sunny
+- **Humidity**: 36%
+- **Wind Speed**: 14.8 km/h
+- **Last Updated**: September 25, 2025, 18:30
+
+It's a sunny day in London with moderate wind and relatively low humidity.
+2025-09-25 22:53:22,857 INFO <module>(39) State updated, total messages now: 8
+2025-09-26 11:04:42,973 INFO <module>(22) User ended the session.
+2025-09-26 13:09:17,742 INFO load_keys(24) keys loaded successfully.
+2025-09-26 13:09:20,263 INFO __init__(31) Chatbot initialized with max_history=10, Keep messages after reset=2
+2025-09-26 13:09:21,839 INFO __init__(39) LLM initialized with: gpt-4o
+2025-09-26 13:09:21,846 INFO __init__(48) Chabot Agent prompt loaded successfully
+2025-09-26 13:09:21,846 INFO create_graph(65) [GRAPH] Creating conversation graph...
+2025-09-26 13:09:21,847 INFO create_graph(75) [GRAPH] Graph compiled with memory saver
+2025-09-26 13:09:21,869 INFO <module>(13) Chatbot initialized and ready!
+2025-09-26 13:09:21,870 INFO <module>(17) Using config: {'configurable': {'thread_id': '1'}}
+2025-09-26 13:09:25,521 INFO <module>(28) User request started at: 2025-09-26 13:09:25.521161
+2025-09-26 13:09:26,783 INFO ai_chat(61) [AI_CHAT] Appending response, total messages now: 2
+2025-09-26 13:09:26,785 INFO <module>(35) Agent response completed at: 2025-09-26 13:09:26.785055
+2025-09-26 13:09:26,785 INFO <module>(36) Total response time: 0:00:01.263894
+2025-09-26 13:09:26,785 INFO log_messages(13) ================================== Human Message ==================================
+2025-09-26 13:09:26,785 INFO log_messages(14) hi
+2025-09-26 13:09:26,785 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-26 13:09:26,785 INFO log_messages(19) Hello! How can I assist you today? Whether you're interested in the latest news, current weather, or just have a general question, feel free to ask!
+2025-09-26 13:09:26,786 INFO <module>(43) State updated, total messages now: 2
+2025-09-26 13:10:28,640 INFO <module>(28) User request started at: 2025-09-26 13:10:28.640752
+2025-09-26 13:10:29,486 INFO ai_chat(61) [AI_CHAT] Appending response, total messages now: 4
+2025-09-26 13:10:30,705 INFO ai_chat(61) [AI_CHAT] Appending response, total messages now: 6
+2025-09-26 13:10:30,707 INFO <module>(35) Agent response completed at: 2025-09-26 13:10:30.707353
+2025-09-26 13:10:30,707 INFO <module>(36) Total response time: 0:00:02.066601
+2025-09-26 13:10:30,707 INFO log_messages(13) ================================== Human Message ==================================
+2025-09-26 13:10:30,707 INFO log_messages(14) hi
+2025-09-26 13:10:30,708 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-26 13:10:30,708 INFO log_messages(19) Hello! How can I assist you today? Whether you're interested in the latest news, current weather, or just have a general question, feel free to ask!
+2025-09-26 13:10:30,708 INFO log_messages(13) ================================== Human Message ==================================
+2025-09-26 13:10:30,708 INFO log_messages(14) teel me canada weather
+2025-09-26 13:10:30,708 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-26 13:10:30,708 INFO log_messages(19) 
+2025-09-26 13:10:30,708 INFO log_messages(24) Tool Calls:
+2025-09-26 13:10:30,709 INFO log_messages(30) --------------------------------------------------------------------------------
+2025-09-26 13:10:30,709 INFO log_messages(31) Tool Function Name : get_weather
+2025-09-26 13:10:30,709 INFO log_messages(32) Tool Arguments     : {"location":"Canada"}
+2025-09-26 13:10:30,709 INFO log_messages(33) Tool Call ID       : call_os1WwX1Ageii9U5JzBF9SDuR
+2025-09-26 13:10:30,709 INFO log_messages(34) --------------------------------------------------------------------------------
+2025-09-26 13:10:30,709 INFO log_messages(38) ================================== Tool Message (Name: get_weather) ==================================
+2025-09-26 13:10:30,709 INFO log_messages(39) {"message": "Weather fetched successfully for Canada ", "data": {"city": "Ottawa", "country": "Canada", "temperature": 14.3, "condition": "Partly cloudy", "last_updated": "2025-09-26 04:15"}}
+2025-09-26 13:10:30,709 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-26 13:10:30,710 INFO log_messages(19) The current weather in Ottawa, Canada, is partly cloudy with a temperature of 14.3ï¿½C. This information was last updated recently. If you need more details, just let me know!
+2025-09-26 13:10:30,710 INFO <module>(43) State updated, total messages now: 6
+2025-09-26 17:15:12,750 INFO <module>(28) User request started at: 2025-09-26 17:15:12.749894
+2025-09-26 17:15:13,716 INFO ai_chat(61) [AI_CHAT] Appending response, total messages now: 8
+2025-09-26 17:15:13,718 INFO <module>(35) Agent response completed at: 2025-09-26 17:15:13.718242
+2025-09-26 17:15:13,718 INFO <module>(36) Total response time: 0:00:00.968348
+2025-09-26 17:15:13,718 INFO log_messages(13) ================================== Human Message ==================================
+2025-09-26 17:15:13,718 INFO log_messages(14) hi
+2025-09-26 17:15:13,718 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-26 17:15:13,719 INFO log_messages(19) Hello! How can I assist you today? Whether you're interested in the latest news, current weather, or just have a general question, feel free to ask!
+2025-09-26 17:15:13,719 INFO log_messages(13) ================================== Human Message ==================================
+2025-09-26 17:15:13,719 INFO log_messages(14) teel me canada weather
+2025-09-26 17:15:13,719 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-26 17:15:13,719 INFO log_messages(19) 
+2025-09-26 17:15:13,719 INFO log_messages(24) Tool Calls:
+2025-09-26 17:15:13,719 INFO log_messages(30) --------------------------------------------------------------------------------
+2025-09-26 17:15:13,720 INFO log_messages(31) Tool Function Name : get_weather
+2025-09-26 17:15:13,720 INFO log_messages(32) Tool Arguments     : {"location":"Canada"}
+2025-09-26 17:15:13,720 INFO log_messages(33) Tool Call ID       : call_os1WwX1Ageii9U5JzBF9SDuR
+2025-09-26 17:15:13,720 INFO log_messages(34) --------------------------------------------------------------------------------
+2025-09-26 17:15:13,720 INFO log_messages(38) ================================== Tool Message (Name: get_weather) ==================================
+2025-09-26 17:15:13,720 INFO log_messages(39) {"message": "Weather fetched successfully for Canada ", "data": {"city": "Ottawa", "country": "Canada", "temperature": 14.3, "condition": "Partly cloudy", "last_updated": "2025-09-26 04:15"}}
+2025-09-26 17:15:13,720 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-26 17:15:13,721 INFO log_messages(19) The current weather in Ottawa, Canada, is partly cloudy with a temperature of 14.3°C. This information was last updated recently. If you need more details, just let me know!
+2025-09-26 17:15:13,721 INFO log_messages(13) ================================== Human Message ==================================
+2025-09-26 17:15:13,721 INFO log_messages(14) hi
+2025-09-26 17:15:13,721 INFO log_messages(18) ================================== Ai Message ==================================
+2025-09-26 17:15:13,721 INFO log_messages(19) Hello again! How can I assist you today?
+2025-09-26 17:15:13,721 INFO <module>(43) State updated, total messages now: 8
