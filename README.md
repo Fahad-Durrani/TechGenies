@@ -36,7 +36,7 @@ TechGenies is a conversational AI assistant that provides users with up-to-date 
 • Purpose: Provides current weather information such as temperature, humidity, wind speed and condition (sunny, rainy) for a given location.
 • Endpoint URL: 
    - Weather: "http://api.weatherapi.com/v1/current.json"
-• API key:  The API key is securely stored in the .env file.
+• API key:  Add your API key in .env file.
 • Usage: 
 This API is used to answer questions like: 
    - What’s the weather in New York?
@@ -48,7 +48,7 @@ This API is used to answer questions like:
 • Endpoint URL: 
    - Top Headlines: "https://newsapi.org/v2/top-headlines"
    - Everything: "https://newsapi.org/v2/everything"
-• API key: The API key is securely stored in the .env file.
+• API key: Add your API key in .env file.
 • Usage: 
 These endpoints are used to answer questions like:
    - Show me top headlines.
@@ -84,8 +84,8 @@ These endpoints are used to answer questions like:
    Place your OpenAI key in a .env file or as environment variables as required by our codebase.
    Example .env file:
       - OPENAI_API_KEY=your_openai_key
-      - NEWS_API_KEY=newsapi_key (Already added)
-      - WEATHER_API_KEY=weatherapi_key (Already added)
+      - NEWS_API_KEY=your_newsapi_key 
+      - WEATHER_API_KEY=your_weatherapi_key 
 7. Run the project command:
    python -u main.py
 8. Stop the Project
